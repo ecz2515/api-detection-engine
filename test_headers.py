@@ -1,6 +1,7 @@
 import json
 import time
 import requests
+import subprocess
 
 def test_minimal_headers():
     # Load the necessary headers from the JSON file
@@ -14,27 +15,27 @@ def test_minimal_headers():
     for entry in header_data['endpoints']:
         base_url = entry['url']
         method = entry['method']
-        headers = entry['required_headers']
         
-        # Add query parameters if they exist
-        if entry['example_params']:
-            params = entry['example_params']
-            url = f"{base_url}?{'&'.join(f'{k}={v}' for k, v in params.items())}"
-        else:
-            url = base_url
-
         try:
-            if method == 'GET':
-                response = requests.get(url, headers=headers, timeout=10)
-            elif method == 'POST':
-                data = "{}" if "content-type" in headers and "json" in headers["content-type"].lower() else None
-                response = requests.post(url, headers=headers, data=data, timeout=10)
+            # Execute the curl command directly, without text=True to handle binary responses
+            result = subprocess.run(
+                entry['curl_example'],
+                shell=True,
+                capture_output=True
+            )
             
-            if response.status_code in (200, 204):
-                print(f"✓ {method} {base_url} - {response.status_code}")
+            # Check if curl command was successful (curl exit code 0)
+            if result.returncode == 0:
+                print(f"✓ {method} {base_url} - Success")
             else:
-                print(f"✗ {method} {base_url} - {response.status_code}")
-                failed_tests.append((base_url, method, response.status_code))
+                print(f"✗ {method} {base_url} - Failed")
+                # Try to decode error message if possible
+                try:
+                    error = result.stderr.decode('utf-8')
+                except:
+                    error = str(result.stderr)
+                print(f"   Error: {error}")
+                failed_tests.append((base_url, method, "Curl command failed"))
                 
         except Exception as e:
             print(f"✗ {method} {base_url} - Error: {str(e)}")

@@ -8,22 +8,18 @@ import requests
 import base64
 
 class HeadersRequest(BaseModel):
-    """Request model containing API endpoint, method and headers"""
     api_endpoint: str = Field(..., description="API endpoint URL")
     method: str = Field(..., description="HTTP method (GET, POST etc)")
     necessary_headers: Dict[str, str] = Field(..., description="Minimal required headers")
 
 class HeadersResponse(BaseModel):
-    """Response model containing list of validated header requests"""
     requests: List[HeadersRequest]
 
 def load_matched_requests(file_path: str) -> List[Dict]:
-    """Load and parse matched requests from JSON file"""
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 def load_endpoint_descriptions(file_path: str) -> Dict[str, str]:
-    """Load endpoint descriptions from analyzed_endpoints.txt"""
     descriptions = {}
     current_url = None
     
@@ -40,21 +36,15 @@ def load_endpoint_descriptions(file_path: str) -> Dict[str, str]:
     return descriptions
 
 def test_api_with_headers(api_endpoint: str, method: str, headers: Dict[str, str]) -> Dict[str, str]:
-    """
-    Test API endpoint by removing headers one by one to find minimal set
-    Returns dict of necessary headers
-    """
     with sync_playwright() as p:
         browser = p.chromium.launch()
         context = browser.new_context()
 
-        # Always required headers
         required_headers = {
             "accept": headers.get("accept", "*/*"),
             "user-agent": headers.get("user-agent", "Mozilla/5.0"),
         }
         
-        # Remove colon-prefixed headers and add required ones
         valid_headers = {k: v for k, v in headers.items() if not k.startswith(":")}
         necessary_headers = valid_headers.copy()
 
@@ -62,7 +52,6 @@ def test_api_with_headers(api_endpoint: str, method: str, headers: Dict[str, str
         print(f"Starting with {len(valid_headers)} headers")
         print(f"Method: {method}")
 
-        # Store initial response for comparison
         try:
             response = context.request.fetch(
                 api_endpoint,
@@ -80,7 +69,6 @@ def test_api_with_headers(api_endpoint: str, method: str, headers: Dict[str, str
             print(f"Initial request failed: {e}")
             return valid_headers
 
-        # Test removing each header individually (except required ones)
         for header in list(necessary_headers.keys()):
             if header in required_headers:
                 print(f"Skipping required header: {header}")
@@ -98,7 +86,6 @@ def test_api_with_headers(api_endpoint: str, method: str, headers: Dict[str, str
                     data="{}" if method.upper() in ['POST', 'PUT', 'PATCH'] else None
                 )
                 
-                # Compare both status code and response body
                 try:
                     current_body = response.text()
                 except:
@@ -110,31 +97,27 @@ def test_api_with_headers(api_endpoint: str, method: str, headers: Dict[str, str
                 else:
                     print(f"Request changed without {header} (status: {response.status}, body changed: {current_body != initial_body}), keeping it")
 
-                time.sleep(1)  # Delay between tests
+                time.sleep(1)
 
             except Exception as e:
                 print(f"Error testing without {header}: {e}")
                 continue
 
         browser.close()
-        # Add back required headers
         necessary_headers.update(required_headers)
         print(f"Finished with {len(necessary_headers)} necessary headers")
         return necessary_headers
 
 def find_minimal_headers(matched_requests: List[Dict]) -> List[Dict]:
-    """Find necessary headers for each unique API endpoint"""
     necessary_headers = []
     
     for request in matched_requests:
         base_url = request["url"]
         method = request["method"]
         
-        # Extract query parameters from :path if present
         if ":path" in request["headers"]:
             path = request["headers"][":path"]
             if "?" in path:
-                # Get everything after the ? from the path
                 query_string = path.split("?", 1)[1]
                 url = f"{base_url}?{query_string}"
             else:
@@ -143,41 +126,37 @@ def find_minimal_headers(matched_requests: List[Dict]) -> List[Dict]:
             url = base_url
 
         headers = {k: v for k, v in request["headers"].items() 
-                  if not k.startswith(":")}  # Remove HTTP/2 pseudo-headers
+                  if not k.startswith(":")}
         status_code = request["status_code"]
 
         print(f"\nProcessing API: {url}")
         parsed_url = urlparse(url)
         query_params = parse_qs(parsed_url.query)
-        print(f"Query parameters: {query_params}")
+        # print(f"Query parameters: {query_params}")
         print(f"Method: {method}, Original Status: {status_code}")
 
         if status_code in (200, 204):
             minimal_headers = test_api_with_headers(url, method, headers)
             
-            # Only add if this endpoint+method combination isn't already present
             if not any(urlparse(entry["api_endpoint"]).scheme + "://" + 
                       urlparse(entry["api_endpoint"]).netloc + 
                       urlparse(entry["api_endpoint"]).path == base_url 
                       and entry["method"] == method for entry in necessary_headers):
                 necessary_headers.append({
-                    "api_endpoint": url,  # Store complete URL with query params
+                    "api_endpoint": url,
                     "method": method,
                     "necessary_headers": minimal_headers
                 })
 
-    # Validate data with Pydantic
     response = HeadersResponse(requests=necessary_headers)
     return response.requests
 
 def test_minimal_headers():
-    # Load the necessary headers from the JSON file
     with open('necessary_headers.json', 'r') as f:
         header_data = json.load(f)
 
-    # Test each endpoint with its minimal headers
     for entry in header_data:
-        url = entry['api_endpoint']  # This now includes query parameters
+        url = entry['api_endpoint']
         method = entry['method']
         headers = entry['necessary_headers']
 
@@ -185,16 +164,14 @@ def test_minimal_headers():
         print(f"Using {len(headers)} headers")
 
         try:
-            # Add retry logic with delay
             max_retries = 3
-            retry_delay = 2  # seconds
+            retry_delay = 2
             
             for attempt in range(max_retries):
                 try:
                     if method == 'GET':
                         response = requests.get(url, headers=headers, timeout=10)
                     elif method == 'POST':
-                        # Add empty JSON body for POST requests if needed
                         data = "{}" if "content-type" in headers and "json" in headers["content-type"].lower() else None
                         response = requests.post(url, headers=headers, data=data, timeout=10)
                     else:
@@ -207,14 +184,14 @@ def test_minimal_headers():
                     
                     assert response.status_code in (200, 204), f"Expected 200 or 204, got {response.status_code}"
                     print("✓ Test passed")
-                    break  # Success, exit retry loop
+                    break
                     
                 except requests.exceptions.RequestException as e:
-                    if attempt < max_retries - 1:  # Don't sleep on last attempt
+                    if attempt < max_retries - 1:
                         print(f"Attempt {attempt + 1} failed: {str(e)}")
                         time.sleep(retry_delay)
                     else:
-                        raise  # Re-raise the last exception if all retries failed
+                        raise
 
         except Exception as e:
             print(f"✗ Test failed: {str(e)}")
@@ -223,12 +200,10 @@ def format_endpoint_data(request, endpoint_descriptions):
     parsed_url = urlparse(request.api_endpoint)
     base_url = f"{parsed_url.scheme}://{parsed_url.netloc}{parsed_url.path}"
     
-    # Parse and decode query parameters
     query_params = parse_qs(parsed_url.query)
     decoded_params = {}
     for k, v in query_params.items():
         try:
-            # Try to decode base64 parameters
             if k == 'd':
                 decoded = base64.b64decode(v[0]).decode('utf-8')
                 decoded_params[k] = json.loads(decoded)
@@ -237,14 +212,10 @@ def format_endpoint_data(request, endpoint_descriptions):
         except:
             decoded_params[k] = v[0]
     
-    # Create a more readable curl example
     headers_str = ' \\\n  '.join([f"-H '{k}: {v}'" for k, v in request.necessary_headers.items()])
-    # Shorten URL in curl example if it's too long
-    example_url = request.api_endpoint
-    if len(example_url) > 100:
-        example_url = f"{base_url}?...  # Query parameters omitted for brevity"
     
-    curl_cmd = f"curl '{example_url}' \\\n  {headers_str}"
+    # Store the complete URL with all parameters, no truncation
+    curl_cmd = f"curl '{request.api_endpoint}' \\\n  {headers_str}"
     
     return {
         "url": base_url,
@@ -272,7 +243,6 @@ if __name__ == "__main__":
     
     print(f"\nSaving results to {output_file}")
     
-    # Convert to new format with descriptions
     output_data = {
         "endpoints": []
     }
