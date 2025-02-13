@@ -1,151 +1,443 @@
 {
-    "https://o350427.ingest.sentry.io/api/4504244653457408/envelope/": [
+    "https://images-na.ssl-images-amazon.com/images/I/01PbZI8iVKL.css": [
         {
-            "method": "POST",
+            "method": "GET",
             "query_params": {
-                "sentry_key": "6c2ff3e3828e4017b7faf7b63e24cdf8",
-                "sentry_version": "7",
-                "sentry_client": "sentry.javascript.browser%2F7.58.1"
-            },
-            "headers": {
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "post_data": "{\"sent_at\":\"2025-01-17T19:07:49.477Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"7.58.1\"}}\n{\"type\":\"session\"}\n{\"sid\":\"68a4d965d7964ed9af7de34ef898ce62\",\"init\":true,\"started\":\"2025-01-17T19:07:49.476Z\",\"timestamp\":\"2025-01-17T19:07:49.476Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"substack@c35e649\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\"}}"
-        }
-    ],
-    "https://cloudflareinsights.com/cdn-cgi/rum": [
-        {
-            "method": "POST",
-            "query_params": {},
-            "headers": {
-                "content-type": "application/json"
-            },
-            "post_data": "{\"memory\":{\"totalJSHeapSize\":104185347,\"usedJSHeapSize\":92143519,\"jsHeapSizeLimit\":4294705152},\"resources\":[],\"referrer\":\"https://substack.com/\",\"eventType\":1,\"firstPaint\":265.30000000074506,\"firstContentfulPaint\":265.30000000074506,\"startTime\":1737140868231.9,\"versions\":{\"js\":\"2024.6.1\",\"timings\":2},\"pageloadId\":\"6d944bb3-3e86-43d4-9631-46ca7e314a1a\",\"location\":\"https://substack.com/browse/staff-picks\",\"nt\":\"reload\",\"timingsV2\":{\"unloadEventStart\":169,\"unloadEventEnd\":169,\"domInteractive\":234.90000000223517,\"domContentLoadedEventStart\":1120.6000000014901,\"domContentLoadedEventEnd\":1120.6000000014901,\"domComplete\":1684.7000000029802,\"loadEventStart\":1684.7000000029802,\"loadEventEnd\":1685.5,\"type\":\"reload\",\"redirectCount\":0,\"criticalCHRestart\":0,\"activationStart\":0,\"initiatorType\":\"navigation\",\"nextHopProtocol\":\"h3\",\"deliveryType\":\"\",\"workerStart\":8.5,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":8.800000000745058,\"domainLookupStart\":8.800000000745058,\"domainLookupEnd\":8.800000000745058,\"connectStart\":8.800000000745058,\"connectEnd\":8.800000000745058,\"secureConnectionStart\":8.800000000745058,\"requestStart\":10.5,\"responseStart\":153.20000000298023,\"responseEnd\":160.80000000074506,\"transferSize\":13623,\"encodedBodySize\":13323,\"decodedBodySize\":63666,\"responseStatus\":200,\"firstInterimResponseStart\":0,\"renderBlockingStatus\":\"non-blocking\",\"name\":\"https://substack.com/browse/staff-picks\",\"entryType\":\"navigation\",\"startTime\":0,\"duration\":1685.5},\"dt\":\"\",\"siteToken\":\"216309cffb464db4b0e02daf0b8e8060\",\"st\":2}"
-        },
-        {
-            "method": "POST",
-            "query_params": {},
-            "headers": {
-                "content-type": "application/json"
-            },
-            "post_data": "{\"referrer\":\"https://substack.com/\",\"eventType\":3,\"versions\":{\"js\":\"2024.6.1\"},\"pageloadId\":\"6d944bb3-3e86-43d4-9631-46ca7e314a1a\",\"location\":\"https://substack.com/browse/staff-picks\",\"landingPath\":\"/browse/staff-picks\",\"startTime\":1737140868231.9,\"nt\":\"reload\",\"siteToken\":\"216309cffb464db4b0e02daf0b8e8060\",\"lcp\":{\"value\":1751.4000000022352,\"path\":\"/browse/staff-picks\",\"element\":\"div.reader2-paragraph.reader2-secondary.reader2-clamp-lines.reader2-3-lines\",\"size\":21090,\"rld\":0,\"rlt\":0,\"erd\":1598.199999999255,\"fp\":null},\"fid\":{\"value\":-1},\"cls\":{\"value\":0,\"path\":\"/browse/staff-picks\"},\"fcp\":{\"value\":265.30000000074506,\"path\":\"/browse/staff-picks\"},\"ttfb\":{\"value\":153.20000000298023,\"path\":\"/browse/staff-picks\"},\"inp\":{\"value\":-1},\"timingsV2\":{\"nextHopProtocol\":\"h3\",\"transferSize\":13623,\"decodedBodySize\":63666},\"dt\":\"\",\"st\":1}"
-        }
-    ],
-    "https://www.google.com/ccm/collect": [
-        {
-            "method": "POST",
-            "query_params": {
-                "en": "page_view",
-                "dr": "substack.com",
-                "dl": "https%3A%2F%2Fsubstack.com%2Fbrowse%2Fstaff-picks",
-                "scrsrc": "www.googletagmanager.com",
-                "frm": "0",
-                "rnd": "1749865270.1737140870",
-                "dt": "Explore%20%7C%20Substack",
-                "auid": "1399270042.1736869973",
-                "navt": "r",
-                "npa": "0",
-                "gtm": "45be51g0v887153041za200zb880777354",
-                "gcd": "13l3l3l3l1l1",
-                "dma": "0",
-                "tag_exp": "102067555~102067808~102081485~102123607",
-                "tft": "1737140870097",
-                "tfd": "1866",
-                "apve": "1"
+                "AUIClients/P13NProfilePickerAssetsBundler": ""
             },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://www.google-analytics.com/g/collect": [
+    "https://images-na.ssl-images-amazon.com/images/I/91l2CVdhaQL.js": [
         {
-            "method": "POST",
+            "method": "GET",
             "query_params": {
-                "v": "2",
-                "tid": "G-TLW0DF6G5V",
-                "gtm": "45je51g0v880777354za200",
-                "_p": "1737140868892",
-                "gcd": "13l3l3l3l1l1",
-                "npa": "0",
-                "dma": "0",
-                "tag_exp": "102067555~102067808~102081485~102123608",
-                "cid": "183933224.1737140850",
-                "ul": "en-us",
-                "sr": "2560x1440",
-                "uaa": "arm",
-                "uab": "64",
-                "uafvl": "Chromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0",
-                "uamb": "0",
-                "uam": "",
-                "uap": "macOS",
-                "uapv": "15.2.0",
-                "uaw": "0",
-                "are": "1",
-                "frm": "0",
-                "pscdl": "noapi",
-                "_s": "1",
-                "sid": "1737140849",
-                "sct": "1",
-                "seg": "1",
-                "dl": "https%3A%2F%2Fsubstack.com%2Fbrowse%2Fstaff-picks",
-                "dr": "https%3A%2F%2Fsubstack.com%2F",
-                "dt": "Explore%20%7C%20Substack",
-                "en": "page_view",
-                "_ee": "1",
-                "tfd": "6821"
+                "AUIClients/P13NProfilePickerAssetsBundler": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dp13nprofilepicker%3Anav%3Afetch-flyout-desktop%26bb0%3D322281%26pc0%3D322421%26ld0%3D322421%26t0%3D1737141154998%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:322421": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/G/01/x-locale/personalization/profiles/PathArrowImageLinkBlueRight4XResolution.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://completion.amazon.com/api/2017/suggestions": [
+        {
+            "method": "GET",
+            "query_params": {
+                "limit": "11",
+                "prefix": "",
+                "suggestion-type": "KEYWORD",
+                "page-type": "Gateway",
+                "alias": "aps",
+                "site-variant": "desktop",
+                "version": "3",
+                "event": "onfocus",
+                "wc": "",
+                "lop": "en_US",
+                "last-prefix": "%00",
+                "avg-ks-time": "0",
+                "fb": "1",
+                "predicted_text_accepted": "",
+                "session-id": "142-4891928-9858311",
+                "request-id": "H5MZBPNK6VDSWDNBH15M",
+                "mid": "ATVPDKIKX0DER",
+                "plain-mid": "1",
+                "client-info": "search-ui",
+                "ni": "1"
             },
             "headers": {},
             "post_data": null
         },
         {
-            "method": "POST",
+            "method": "GET",
             "query_params": {
-                "v": "2",
-                "tid": "G-TLW0DF6G5V",
-                "gtm": "45je51g0v880777354za200",
-                "_p": "1737140868892",
-                "gcd": "13l3l3l3l1l1",
-                "npa": "0",
-                "dma": "0",
-                "tag_exp": "102067555~102067808~102081485~102123608",
-                "cid": "183933224.1737140850",
-                "ul": "en-us",
-                "sr": "2560x1440",
-                "uaa": "arm",
-                "uab": "64",
-                "uafvl": "Chromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0",
-                "uamb": "0",
-                "uam": "",
-                "uap": "macOS",
-                "uapv": "15.2.0",
-                "uaw": "0",
-                "are": "1",
-                "frm": "0",
-                "pscdl": "noapi",
-                "_eu": "AEA",
-                "_s": "2",
-                "sid": "1737140849",
-                "sct": "1",
-                "seg": "1",
-                "dl": "https%3A%2F%2Fsubstack.com%2Fbrowse%2Fstaff-picks",
-                "dr": "https%3A%2F%2Fsubstack.com%2F",
-                "dt": "Explore%20%7C%20Substack",
-                "en": "scroll",
-                "epn.percent_scrolled": "90",
-                "tfd": "30977"
+                "limit": "11",
+                "prefix": "",
+                "suggestion-type": "KEYWORD",
+                "page-type": "Gateway",
+                "alias": "aps",
+                "site-variant": "desktop",
+                "version": "3",
+                "event": "onfocus",
+                "wc": "",
+                "lop": "en_US",
+                "last-prefix": "%00",
+                "avg-ks-time": "9205",
+                "fb": "1",
+                "predicted_text_accepted": "",
+                "session-id": "142-4891928-9858311",
+                "request-id": "H5MZBPNK6VDSWDNBH15M",
+                "mid": "ATVPDKIKX0DER",
+                "plain-mid": "1",
+                "client-info": "search-ui",
+                "ni": "1"
             },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://substack.com/api/v1/firehose/batch": [
+    "https://m.media-amazon.com/images/I/41UfLMjJjqL._SY280_SX256_AC_Q70_.jpg": [
         {
-            "method": "POST",
+            "method": "GET",
             "query_params": {},
-            "headers": {
-                "content-type": "application/json"
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51U1ueaPI9L._SY280_SX256_AC_Q70_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/G/01/shopbylook/shoppable-images/next_tab_control._CB416468320_.svg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3DTimeToFirstSuggestion%3Adesktop%26bb0%3D324522%26be0%3D324793%26pc0%3D324793%26ld0%3D324793%26t0%3D1737141157370%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:324794": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://www.amazon.com/rd/uedata": [
+        {
+            "method": "GET",
+            "query_params": {
+                "rid": "H5MZBPNK6VDSWDNBH15M",
+                "sid": "142-4891928-9858311",
+                "rx": "So7ndLm7saQB7Yvdk/mkI6G1i2OLZzL9+mtW6/3XrBs"
             },
-            "post_data": "[\"eyJldmVudCI6IlBhZ2VzIiwidGltZXN0YW1wIjoiMjAyNS0wMS0xN1QxOTowNzo0OC44OTJaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiNGFnZTBhemJiciIsImlmcmFtZVZpc2l0SWQiOmZhbHNlfSwiY29udGV4dCI6eyJjbGllbnRfdHlwZSI6IndlYiIsImRpc3BsYXlNb2RlIjoiYnJvd3NlciIsInBhZ2UiOnsicmVmZXJyZXIiOiJodHRwczovL3N1YnN0YWNrLmNvbS8iLCJ0aXRsZSI6IkV4cGxvcmUgfCBTdWJzdGFjayIsInVybCI6Imh0dHBzOi8vc3Vic3RhY2suY29tL2Jyb3dzZS9zdGFmZi1waWNrcyJ9LCJjYW1wYWlnbiI6e30sInRpbWV6b25lIjoiQW1lcmljYS9DaGljYWdvIn19\",\"eyJldmVudCI6IlBvc3QgUmVjb21tZW5kYXRpb25zIFNob3duIiwidGltZXN0YW1wIjoiMjAyNS0wMS0xN1QxOTowNzo1MC4wMjJaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiNGFnZTBhemJiciIsImlmcmFtZVZpc2l0SWQiOmZhbHNlLCJwb3N0X2lkcyI6WzE0OTUwNzYyNF0sInBvc3RfaWQiOjE0OTUwNzYyNCwicmFuayI6MX0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vIiwidGl0bGUiOiJFeHBsb3JlIHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwczovL3N1YnN0YWNrLmNvbS9icm93c2Uvc3RhZmYtcGlja3MifSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkFtZXJpY2EvQ2hpY2FnbyJ9fQ==\",\"eyJldmVudCI6IlBvc3QgUmVjb21tZW5kYXRpb25zIFNob3duIiwidGltZXN0YW1wIjoiMjAyNS0wMS0xN1QxOTowNzo1MC4wMjNaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiNGFnZTBhemJiciIsImlmcmFtZVZpc2l0SWQiOmZhbHNlLCJwb3N0X2lkcyI6WzE0ODg0NDg1NF0sInBvc3RfaWQiOjE0ODg0NDg1NCwicmFuayI6Mn0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vIiwidGl0bGUiOiJFeHBsb3JlIHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwczovL3N1YnN0YWNrLmNvbS9icm93c2Uvc3RhZmYtcGlja3MifSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkFtZXJpY2EvQ2hpY2FnbyJ9fQ==\",\"eyJldmVudCI6IlBvc3QgUmVjb21tZW5kYXRpb25zIFNob3duIiwidGltZXN0YW1wIjoiMjAyNS0wMS0xN1QxOTowNzo1MC4wMjNaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiNGFnZTBhemJiciIsImlmcmFtZVZpc2l0SWQiOmZhbHNlLCJwb3N0X2lkcyI6WzE0OTk2Mzg4MV0sInBvc3RfaWQiOjE0OTk2Mzg4MSwicmFuayI6NH0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vIiwidGl0bGUiOiJFeHBsb3JlIHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwczovL3N1YnN0YWNrLmNvbS9icm93c2Uvc3RhZmYtcGlja3MifSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkFtZXJpY2EvQ2hpY2FnbyJ9fQ==\",\"eyJldmVudCI6IlBvc3QgUmVjb21tZW5kYXRpb25zIFNob3duIiwidGltZXN0YW1wIjoiMjAyNS0wMS0xN1QxOTowNzo1MC4wMjNaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiNGFnZTBhemJiciIsImlmcmFtZVZpc2l0SWQiOmZhbHNlLCJwb3N0X2lkcyI6WzE1MDc0MTcwOF0sInBvc3RfaWQiOjE1MDc0MTcwOCwicmFuayI6MH0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vIiwidGl0bGUiOiJFeHBsb3JlIHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwczovL3N1YnN0YWNrLmNvbS9icm93c2Uvc3RhZmYtcGlja3MifSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkFtZXJpY2EvQ2hpY2FnbyJ9fQ==\",\"eyJldmVudCI6IlBvc3QgUmVjb21tZW5kYXRpb25zIFNob3duIiwidGltZXN0YW1wIjoiMjAyNS0wMS0xN1QxOTowNzo1MC4wMjNaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiNGFnZTBhemJiciIsImlmcmFtZVZpc2l0SWQiOmZhbHNlLCJwb3N0X2lkcyI6WzE0OTg1MjM1M10sInBvc3RfaWQiOjE0OTg1MjM1MywicmFuayI6NX0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vIiwidGl0bGUiOiJFeHBsb3JlIHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwczovL3N1YnN0YWNrLmNvbS9icm93c2Uvc3RhZmYtcGlja3MifSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkFtZXJpY2EvQ2hpY2FnbyJ9fQ==\",\"eyJldmVudCI6IlBvc3QgUmVjb21tZW5kYXRpb25zIFNob3duIiwidGltZXN0YW1wIjoiMjAyNS0wMS0xN1QxOTowNzo1MC4wMjNaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiNGFnZTBhemJiciIsImlmcmFtZVZpc2l0SWQiOmZhbHNlLCJwb3N0X2lkcyI6WzE0ODg0ODEyNF0sInBvc3RfaWQiOjE0ODg0ODEyNCwicmFuayI6M30sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vIiwidGl0bGUiOiJFeHBsb3JlIHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwczovL3N1YnN0YWNrLmNvbS9icm93c2Uvc3RhZmYtcGlja3MifSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkFtZXJpY2EvQ2hpY2FnbyJ9fQ==\",\"eyJldmVudCI6IkZpcmVob3NlIEJhdGNoIFNlbnQiLCJ0aW1lc3RhbXAiOiIyMDI1LTAxLTE3VDE5OjA3OjU1LjI0NloiLCJwcm9wZXJ0aWVzIjp7ImJyb3dzZXJTZXNzaW9uSWQiOiI0YWdlMGF6YmJyIiwiaWZyYW1lVmlzaXRJZCI6ZmFsc2UsImRhdGFTaXplIjozODIwLCJiYXRjaFNpemUiOjcsImJhdGNoVHlwZSI6ImJlYWNvbiIsImV2ZW50VHlwZSI6InZpc2liaWxpdHljaGFuZ2UifSwiY29udGV4dCI6eyJjbGllbnRfdHlwZSI6IndlYiIsImRpc3BsYXlNb2RlIjoiYnJvd3NlciIsInBhZ2UiOnsicmVmZXJyZXIiOiJodHRwczovL3N1YnN0YWNrLmNvbS8iLCJ0aXRsZSI6IkV4cGxvcmUgfCBTdWJzdGFjayIsInVybCI6Imh0dHBzOi8vc3Vic3RhY2suY29tL2Jyb3dzZS9zdGFmZi1waWNrcyJ9LCJjYW1wYWlnbiI6e30sInRpbWV6b25lIjoiQW1lcmljYS9DaGljYWdvIn19\"]"
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "rid": "H5MZBPNK6VDSWDNBH15M",
+                "sid": "142-4891928-9858311",
+                "rx": "aTYzDt0vEMIxpQsS551Oow"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51RrmQnTVAL._AC_SY195_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://aax-us-iad.amazon.com/x/px/RCcbVmyt7btLaePxh3JgjgMAAAGUdamJJgEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDIgICDrZLCy/v/%7B%22wh%22:1029,%22ww%22:1119,%22sx%22:0,%22sy%22:1427.199951171875,%22ah%22:250,%22aw%22:970,%22top%22:1011.2999877929688,%22left%22:68.5999984741211,%22v%22:%7B%22p%22:0,%22t%22:0,%22def%22:%22amzn%22%7D,%22ptv%22:351.298,%22ttv%22:350.417%7D": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dadplacements%3Aviewablelatency%3A73950e1c-6f66-4784-b2d9-e5d5693a4353%26bb0%3D351305%26pc0%3D351306%26ld0%3D351306%26t0%3DFri%20Jan%2017%202025%2013%3A13%3A03%20GMT-0600%20(Central%20Standard%20Time)%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:351306": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dadplacements%3Aviewablelatency%3AGateway%3Adesktop-ad-center-1%3Adesktop%26bb0%3D351305%26pc0%3D351306%26ld0%3D351306%26t0%3DFri%20Jan%2017%202025%2013%3A13%3A03%20GMT-0600%20(Central%20Standard%20Time)%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:351306": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51qs4OB87eL._AC_SY195_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61H8C4llaLL._AC_SY195_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://aax-us-iad.amazon.com/x/px/RCcbVmyt7btLaePxh3JgjgMAAAGUdamJJgEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDIgICDrZLCy/v/%7B%22wh%22:1029,%22ww%22:1119,%22sx%22:0,%22sy%22:1506.4000244140625,%22ah%22:250,%22aw%22:970,%22top%22:932.1000366210938,%22left%22:68.5999984741211,%22v%22:%7B%22p%22:30,%22t%22:1,%22def%22:%22iab%22%7D,%22ptv%22:352.32,%22ttv%22:351.439%7D": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://pagead2.googlesyndication.com/pcs/activeview": [
+        {
+            "method": "GET",
+            "query_params": {
+                "xai": "AKAOjsskcVO_o2wiaOtLffjpu32AsykG3VK-KJS6gVfaiXXaTY9v-__MXmHy5XVva-zHJYmY6VwtRG9iLf-w5Vl7WyYmZMc6gpXMU_EBZ8TKkzefhdvlQ6NH2XMyJDnP0Y1w7AeNsmqVfWOc8FMEQEQBL9ektMpVUwg",
+                "sig": "Cg0ArKJSzN8xGx5mpEnJEAE",
+                "id": "lidar2",
+                "mcvt": "1001",
+                "p": "0,0,250,970.4000244140625",
+                "tm": "350466.3999999985",
+                "tu": "349439.3999999985",
+                "mtos": "411,979,987,1001,1027",
+                "tos": "411,568,8,14,26",
+                "v": "20241204",
+                "bin": "7",
+                "avms": "nio",
+                "bs": "0,0",
+                "mc": "1",
+                "if": "1",
+                "vu": "1",
+                "app": "0",
+                "itpl": "32",
+                "adk": "1703050468",
+                "rs": "6",
+                "la": "1",
+                "cr": "0",
+                "uach": "WyJtYWNPUyIsIjE1LjIuMCIsImFybSIsIiIsIjEzMS4wLjY3NzguMjY1IixudWxsLDAsbnVsbCwiNjQiLFtbIkNocm9taXVtIiwiMTMxLjAuNjc3OC4yNjUiXSxbIk5vdF9BIEJyYW5kIiwiMjQuMC4wLjAiXV0sMF0%3D",
+                "vs": "4",
+                "r": "v",
+                "co": "3307363400",
+                "rst": "1737140833980",
+                "rpt": "620",
+                "wmsd": "0",
+                "pbe": "0",
+                "fle": "0",
+                "vae": "0",
+                "spb": "0",
+                "sfl": "0",
+                "ffslot": "0",
+                "reach": "8",
+                "io2": "0"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://aax-us-iad.amazon.com/x/px/RCcbVmyt7btLaePxh3JgjgMAAAGUdamJJgEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDIgICDrZLCy/v/%7B%22wh%22:1029,%22ww%22:1119,%22sx%22:0,%22sy%22:1658.4000244140625,%22ah%22:250,%22aw%22:970,%22top%22:780.1000366210938,%22left%22:68.5999984741211,%22v%22:%7B%22p%22:100,%22t%22:1,%22def%22:%22groupm%22%7D,%22ptv%22:352.904,%22ttv%22:352.023%7D": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://www.amazon.com/hz/rhf": [
+        {
+            "method": "GET",
+            "query_params": {
+                "currentPageType": "Gateway",
+                "currentSubPageType": "desktop",
+                "excludeAsin": "",
+                "fieldKeywords": "",
+                "k": "",
+                "keywords": "",
+                "search": "",
+                "auditEnabled": "",
+                "previewCampaigns": "",
+                "forceWidgets": "",
+                "searchAlias": "",
+                "cardJSPresent": "true"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/ZpbG74laklgnz-i.png": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/51p-Uo3bNjL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "xcp": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/31To440CwiL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "xcp": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/51kpytThp1L._AC_UL165_SR165,165_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/61Qebc4CQoL._AC_UL165_SR165,165_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/41siPqHKP1L._AC_UL165_SR165,165_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/81WsSyAYxHL._AC_UL165_SR165,165_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/41MWSX8igXL._AC_UL165_SR165,165_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/61ppHEzQfnL._AC_UL165_SR165,165_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/61mT-XwnVgL._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/71shNida-7L._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/718r5OA3czL._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/716AorLgzKL._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/81F7bTfj+4L._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/51iifuorpCL._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dp13n-desktop-carousel_desktop-rhf_0%26bb0%3D354411%26be0%3D354412%26pc0%3D354483%26ld0%3D354483%26t0%3D1737141187060%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:354483": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dp13n-rvi_desktop-rvi_0%26bb0%3D354413%26be0%3D354413%26pc0%3D354486%26ld0%3D354486%26t0%3D1737141187063%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:354486": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/814o8a13uvL._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/81RFZxncM1L._AC_UL100_SR100,100_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
         }
     ]
 }

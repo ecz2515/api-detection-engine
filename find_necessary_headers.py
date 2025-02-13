@@ -21,17 +21,11 @@ def load_matched_requests(file_path: str) -> List[Dict]:
 
 def load_endpoint_descriptions(file_path: str) -> Dict[str, str]:
     descriptions = {}
-    current_url = None
     
     with open(file_path, 'r') as f:
-        for line in f:
-            line = line.strip()
-            if line.startswith('URL: '):
-                current_url = line.replace('URL: ', '').strip()
-            elif line.startswith('Explanation: ') and current_url:
-                description = line.replace('Explanation: ', '').strip()
-                descriptions[current_url] = description
-                current_url = None
+        endpoints_data = json.load(f)
+        for endpoint in endpoints_data:
+            descriptions[endpoint["url"]] = endpoint["explanation"]
     
     return descriptions
 
@@ -229,7 +223,7 @@ def format_endpoint_data(request, endpoint_descriptions):
 
 if __name__ == "__main__":
     matched_requests_file = "matched_requests.json"
-    analyzed_endpoints_file = "analyzed_endpoints.txt"
+    analyzed_endpoints_file = "analyzed_endpoints.json"
     output_file = "necessary_headers.json"
     
     print(f"Loading requests from {matched_requests_file}")

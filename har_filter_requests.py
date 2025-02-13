@@ -51,8 +51,8 @@ def filter_and_preprocess_har(har_file_path, request_type):
 
 if __name__ == "__main__":
     # Path to .har file
-    har_file_path = "/Users/evanchen/Desktop/Evan_CJL/test_files/substack.com.har"
-    request_type = "POST"
+    har_file_path = "test_files/www.amazon.com.har"
+    request_type = "GET"
     
     # Filter and preprocess .har file
     preprocessed_data = filter_and_preprocess_har(har_file_path, request_type)
