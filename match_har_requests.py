@@ -22,7 +22,6 @@ def load_har_file(har_file):
 def extract_valuable_endpoints(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         endpoints_data = json.load(f)
-        # Extract just the URLs from the endpoint objects
         valuable_endpoints = [endpoint["url"] for endpoint in endpoints_data]
         return valuable_endpoints
 
@@ -41,18 +40,14 @@ if __name__ == "__main__":
     har_file = "test_files/www.amazon.com.har"
     endpoints_file = "analyzed_endpoints.json"
 
-    # Load and process HAR file
     har_requests = load_har_file(har_file)
     print(f"Loaded {len(har_requests)} requests from HAR file")
     
-    # Extract valuable endpoints from JSON
     valuable_endpoints = extract_valuable_endpoints(endpoints_file)
     print(f"Found {len(valuable_endpoints)} valuable endpoints to match")
 
-    # Match requests against valuable endpoints
     matched_requests = match_endpoints(har_requests, valuable_endpoints)
 
-    # Save matched requests
     with open("matched_requests.json", "w") as f:
         json.dump(matched_requests, f, indent=4)
 
