@@ -1,5 +1,6 @@
 import json
 import re
+import sys
 
 def load_har_file(har_file):
     with open(har_file, "r", encoding="utf-8") as f:
@@ -37,7 +38,11 @@ def match_endpoints(har_requests, valuable_endpoints):
     return matched_requests
 
 if __name__ == "__main__":
-    har_file = "test_files/www.amazon.com.har"
+    if len(sys.argv) != 2:
+        print("Usage: python match_har_requests.py <HAR_FILE_PATH>")
+        sys.exit(1)
+
+    har_file = sys.argv[1]
     endpoints_file = "analyzed_endpoints.json"
 
     har_requests = load_har_file(har_file)

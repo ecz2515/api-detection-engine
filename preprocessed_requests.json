@@ -1,25 +1,5 @@
 {
-    "https://images-na.ssl-images-amazon.com/images/I/01PbZI8iVKL.css": [
-        {
-            "method": "GET",
-            "query_params": {
-                "AUIClients/P13NProfilePickerAssetsBundler": ""
-            },
-            "headers": {},
-            "post_data": null
-        }
-    ],
-    "https://images-na.ssl-images-amazon.com/images/I/91l2CVdhaQL.js": [
-        {
-            "method": "GET",
-            "query_params": {
-                "AUIClients/P13NProfilePickerAssetsBundler": ""
-            },
-            "headers": {},
-            "post_data": null
-        }
-    ],
-    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dp13nprofilepicker%3Anav%3Afetch-flyout-desktop%26bb0%3D322281%26pc0%3D322421%26ld0%3D322421%26t0%3D1737141154998%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:322421": [
+    "http://www.amazon.com/": [
         {
             "method": "GET",
             "query_params": {},
@@ -27,7 +7,7 @@
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/G/01/x-locale/personalization/profiles/PathArrowImageLinkBlueRight4XResolution.jpg": [
+    "https://www.amazon.com/": [
         {
             "method": "GET",
             "query_params": {},
@@ -35,30 +15,2173 @@
             "post_data": null
         }
     ],
-    "https://completion.amazon.com/api/2017/suggestions": [
+    "https://m.media-amazon.com/images/I/11EIQ5IGqaL._RC%7C01ZTHTZObnL.css,51FIeTurRAL.css,31fFxDf00KL.css,11j2+ObrspL.css,01qDClimA1L.css,01pOTCa2wPL.css,413Vvv3GONL.css,11TIuySqr6L.css,01Rw4F+QU6L.css,11JJsNcqOIL.css,01J3raiFJrL.css,01IdKcBuAdL.css,014QJx7nWqL.css,21Otytu1xYL.css,01Sv7-fQIGL.css,51Cfshh2sJL.css,01XPHJk60-L.css,11ChJlzZQoL.css,01UgxIH-BSL.css,01fxuupJToL.css,21+W7u4fDzL.css,01oATFSeEjL.css,21RWaJb6t+L.css,11I+YZzE7kL.css,211Xmr7zN2L.css,01CFUgsA-YL.css,31WWobXdJQL.css,11PDZ29p-PL.css,111bsezNMhL.css,11tNhCU--0L.css,11msBd9oOTL.css,11BO1RWH3kL.css,011ylpySXkL.css,21Dzvx3cZoL.css,11Wb9slw7JL.css,01uDrkI-EcL.css,215Q9RsWvdL.css,113EFChyAjL.css,11hvENnYNUL.css,11Qek6G6pNL.css,01890+Vwk8L.css,014VAMpg+ZL.css,01qiwJ7qDfL.css,21TAMzcrOKL.css,016mfgi+D2L.css,01gU3ljx0fL.css,21l8QuSB5IL.css,013-xYw+SRL.css_.css": [
         {
             "method": "GET",
             "query_params": {
-                "limit": "11",
-                "prefix": "",
-                "suggestion-type": "KEYWORD",
-                "page-type": "Gateway",
-                "alias": "aps",
-                "site-variant": "desktop",
-                "version": "3",
-                "event": "onfocus",
-                "wc": "",
-                "lop": "en_US",
-                "last-prefix": "%00",
-                "avg-ks-time": "0",
-                "fb": "1",
-                "predicted_text_accepted": "",
-                "session-id": "142-4891928-9858311",
-                "request-id": "H5MZBPNK6VDSWDNBH15M",
-                "mid": "ATVPDKIKX0DER",
-                "plain-mid": "1",
-                "client-info": "search-ui",
-                "ni": "1"
+                "AUIClients/AmazonUI": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/41oqEIFYdwL._RC%7C71wOXWEKFAL.css,51uyq4Mg2YL.css,21UgUChNR0L.css,01FcI3FsaiL.css,21Hc1s0-E4L.css,31YZpDCYJPL.css,21DwGGPS1eL.css,413J7RjVHpL.css,11HvNwu+WGL.css,31K0jc2KvHL.css,01H8CHB5aiL.css,21KQnzhmfTL.css,41yKpEQVJkL.css,41FQVcfy5lL.css_.css": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/NavDesktopUberAsset": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/41945FR1dZL.css": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/AmazonGatewayAuiAssets": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fstaticb%26id%3DSKSVNQ7Q5XJRN9XBX8HG:0": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/41rEP4LsL5L._SX1500_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardD_Desktop1x_186x116_gucci._SY116_CB550480456_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardA_Desktop1x_186x116_chanel._SY116_CB550480456_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardB_Desktop1x_186x116_LV._SY116_CB550480456_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardC_Desktop1x_186x116_dior._SY116_CB550480456_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardA_Desktop1x_186x116_womens._SY116_CB550605616_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardC_Desktop1x_186x116_skincare._SY116_CB550605616_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardB_Desktop1x_186x116_fragrances._SY116_CB550605616_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/LS25_Q1_HPQuadCardD_Desktop1x_186x116_mens._SY116_CB550605616_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/PC_186x116._SY116_CB561026793_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/Wireless_186x116._SY116_CB561026793_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2024/img/Consumer_Electronics/XCM_CUTTLE_1708672_3706051_186x116_1X_en_US._SY116_CB561559219_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/HomeEntertainment_186x116._SY116_CB561026793_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/ChristopherEsber/Amazon-Quad_Card_Desktop_EN_ChristopherEsber_2025_54_186x116_Top_Left1x._SY116_CB551406146_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/ChristopherEsber/Amazon-Quad_Card_Desktop_EN_ChristopherEsber_2025_54_186x116_Top_Right1x._SY116_CB551406146_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/ChristopherEsber/Amazon-Quad_Card_Desktop_EN_ChristopherEsber_2025_54_186x116_Bottom_Left1x._SY116_CB551406146_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/ChristopherEsber/Amazon-Quad_Card_Desktop_EN_ChristopherEsber_2025_54_186x116_Bottom_Right1x._SY116_CB551406146_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61xJcNKKLXL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/AmazonUIjQuery": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/01rGP6HIADL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/GenericObservableJS": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/11lCLXBMk5L._RC%7C61YBxGSpjrL.js_.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/AmazonGatewayAuiAssets": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/3FFjjnZ6FBQZUp2.png": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/LGWV0WcW4sqhlTH.png": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/ydDD9hnRfziI$y7.png": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/ukXm5utlI1weDBc.gif": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/31PvjKh9oXL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/AmazonGatewayHerotatorJS": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61SuPkDGYfL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71NbgNL7uUL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51wDsZxtTLL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61vTPJCGCjL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/513fraGQXWL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61Isb40O6wL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61neCjTolQL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/51na2k2njbL._RC%7C71spUrmy7NL.js,01QvReFeJyL.js,01VfhmbHmKL.js,71m4s8J6XyL.js,01Q-N1HAX6L.js,01xltaSfiSL.js,01A2AtmCtlL.js,41jBieyCvYL.js,01wXnKULArL.js,01+pnQJuQ0L.js,21PMP-WgxTL.js,41lXbNNGwGL.js,51HrkAbbpLL.js,31XO9BO1OrL.js,11lw6J7z8iL.js,31NSDarX4TL.js,01VYGE8lGhL.js,01tDwkxEoCL.js_.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/NavDesktopUberAsset": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61VfvfV69lL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61J0e7d0GEL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/719eDVmYeYL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81fv0rP0kPL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71mgBpijzML._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81j68d7Jh3L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81U1j+Ni3BL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1751_Gateway_DesktopQuadCard_Under5_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1752_Gateway_DesktopQuadCard_Under10_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1753_Gateway_DesktopQuadCard_Under20_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1754_Gateway_DesktopQuadCard_Deals_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/Collections/SpringFavorites/HomePage/DQC/SpringFavorites_2025_GW_DQC_NE_Fashion_186x116_1x._SY116_CB550454992_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/Collections/SpringFavorites/HomePage/DQC/SpringFavorites_2025_GW_DQC_SE_Beauty_186x116_1x._SY116_CB550454992_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/Collections/SpringFavorites/HomePage/DQC/SpringFavorites_2025_GW_DQC_NW_Decor_186x116_1x._SY116_CB550454992_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/Collections/SpringFavorites/HomePage/DQC/SpringFavorites_2025_GW_DQC_SW_LawnGarden_186x116_1x._SY116_CB550454992_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/softlines/shopbop/ingress/2025/february/mp_20240117_resort_dresses_category_desktop_379x304._SY304_CB550622626_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1772_Gateway_DesktopQuadCard_Electronics_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1773_Gateway_DesktopQuadCard_Beauty_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1774_Gateway_DesktopQuadCard_NewNoteworthy_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1775_Gateway_DesktopQuadCard_FashionTeen_1x_186x116_VITWB_v2._SY116_CB548590132_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61KePAu1JAL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61I0wbY1FUL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71b8fh-dQ4L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51-U5dEbEBL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/713afJ6oJ+L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71LOYxu6SAL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/7136-eapqKL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/91ZVf3kNrcL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81RUJzM+wvL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81qFXvsZ2sL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/91-E86oM2IL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81MqxNVfZuL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51J6S76ckGL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81ANaVZk5LL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/img18/home/journeys/OWFhYjJmNGIt/OWFhYjJmNGIt-NzIwODU5ZmIt-w379._SY304_CB405958196_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1709_Gateway_DesktopQuadCard_Candy_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1710_Gateway_DesktopQuadCard_BasketFillers_1x_186x116_VITWB._SY116_CB551804896_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1711_Gateway_DesktopQuadCard_Toys_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1712_Gateway_DesktopQuadCard_FashionKids_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/softlines/shopbop/ingress/2025/february/mp_20250214_mens_category_desktop_379x304_02._SY304_CB549891743_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1745_Gateway_DesktopQuadCard_CML_1x_186x116_VITWB._SY116_CB548599962_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1746_Gateway_DesktopQuadCard_Deals_1x_186x116_VITWB._SY116_CB551803017_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1748_Gateway_DesktopQuadCard_Decor_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2025/1H/Easter/GW/QuadCard/Easter_25_1747_Gateway_DesktopQuadCard_Top100_1x_186x116_VITWB._SY116_CB551804899_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/41JILztxbDL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/719IB30dOxL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61pp+20Oo0L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/718tZy6VWQL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/41roS4Ps5RL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61K6cQhw4EL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/612HeyYXOnL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71nVIiWEcgL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/414C25OyjML._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51WJiz7-twL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/41iLLpfSWxL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51IFiSD+kCL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51u97cbdaxL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/8187pIJ2dDL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/719Q+UaPALL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71x-iCOHaaL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71gHRy76hwL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71wQb2LWUkL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71WT7ECExXL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71E1zOPvvLL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/G/01/personalization/ybh/loading-4x-gray._CB485916920_.gif": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/G/01/csm/showads.v2.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "bannerid": "-ad-sidebar."
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/11+d9I1l9AL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "xcp": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/11zuylp74DL._RC%7C11Y+5x+kkTL.js,51F3LXOLEtL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21u+kGQyRqL.js,012FVc3131L.js,11aD5q6kNBL.js,11rRjDLdAVL.js,51zH7YD-TsL.js,11nAhXzgUmL.js,11dIAzUNpxL.js,1110g-SvlBL.js,116PwN2VXHL.js,21+WA5wfjfL.js,0190vxtlzcL.js,51xvEQZx5oL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,01ASnt2lbqL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,31N+6dLod0L.js,01tvglXfQOL.js,11+FwJUUPNL.js,014gnDeJDsL.js,11vb6P5C5AL.js,015+pUPweLL.js_.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/AmazonUI": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51tQKx1B9KL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/CardJsRuntimeBuzzCopyBuild": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61P3bPmIWAL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61C+zURu0EL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61IqZD8hYDL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/711w31jqoCL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61Cev2aFG5L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/612gGYUB+gL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71Cez5bmURL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71PCPcDgfKL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71RPinQjeCL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51WTFQEedhL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/717Qd-IsDsL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51X5PPehAKL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51rkKPruYvL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61qTPaU7dYL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61zu4lFOnxL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61cjiuCOtrL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/9171uzu8PEL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61iqz8oNuhL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/614rbIVRUJL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61Q13fPs1lL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51dPz+dQTZL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81o1fGljZVL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71bovUHWa0L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71oIxHuFHjL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71HUNCsDlaL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81mm70fmJ+L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/813ul4qBnCL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81ca3M+VQAL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61dSjp-nZvL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81ckgHGO3WL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61FOfnB1ezL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81m9lidzZBL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81ZCHnOcX6L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71+rlj0ZZSL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/818JjW-9riL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/818EqQ-v29L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71u9g9ENFyL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71I55ATqZNL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/610TN-4nYjL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61oQldbfcsL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/718KDgBIJDL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61g1mQPO+sL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81sZwm5yRiL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/611PxVIwTmL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81kVQ2NqChL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71M6a8SHCeL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81D3MYgXqLL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81Cn1+lUraL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51-Omd4s6aL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61u4r0RektL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/91DYNS5MNOL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81MK04G1WpL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61txMSeT2yL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/41Dz7KzIs6L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/810Kq8+YGvL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71ybuaqVLwL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61hWrSCnE0L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71329CVoVDL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/7170px9vGUL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71V0kbGwsTL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81JmVgvOmCL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71A5SvOD8lL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/7144hjLKYSL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61S1tvRFMML._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51HGSKCft0L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81bpKKv68-L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/9101MLPcFTL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81AHTyq2wVL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/91ulu+khYLL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61Wxab6R32L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71c+ReofeoL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71zhG2EkgrL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61s--VaVyUL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81q6ckUXE5L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71Cd4BZYYtL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61JmuL9baKL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81YYStQvnsL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81OkWjcf4WL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71K+9YJ7VbL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/917Bc9C1MlL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/91NNsmxqWdL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81ftoX+84ML._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81kZ3Gl3WKL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51xKFo2B+RL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/5176LKi-MLL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81Rz9l29NiL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81mpSoJzv4L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81qsstEtrgL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81D6G3jV-nL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51x78epntaL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/719hqT1t0KL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71MQo8pHmBL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51299uVd3YL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71+CaUj9EtL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61DAurbQboL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71QN+W-iLzL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71xMIZgC-TL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71JxjmbExxL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71Mcspt-6AL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61EidjXUBrL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51iMh82b5UL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61eXe6NOAuL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51nnm3xrl9L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/718f8oZHkSL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61eH32lVpdL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61QALJDKE9L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61jFzP2JQIL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71x8eJYN4JL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71WPgWDK9pL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61s2hLes3ML._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81S09phPPPL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/616YIg55gvL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/41s9DmRSgcL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51cpWg2Ay7L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61Sglba97DL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71nwcDS1+tL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51-h2oz-PeL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71sKt-dFWWL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71G8rdQin3L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81Q9vMNUOyL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51wuwNoc+PL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71VQl1X3DqL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61hZrbHRMWL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61nq7N0igEL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51rRo55PUwL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71Api8I7QML._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/6159wJyiiKL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71tZ8br3HVL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/5164giE9fFL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71SEZvg1spL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71QPduoKd1L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61B1a3JFb6L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71OWtcxKgvL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71vrRidPzqL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/6179CNof0wL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/618Lig3bsML._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71VKJCGWtwL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61Lbb0IFyZL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71mr6NdQE4L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71UsblW3D+L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81q13+KL29L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81e5Lzf664L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/91k69BJ4e+L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/816FmlG3KuL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81KAotcNNxL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61tilO4erpL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71eJNnl+TQL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81QQOmhZwOL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81DZsGh+awL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71sf5tUwV+L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81OcKm1MXQL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71AQF+jAL3L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81iNXL+fSpL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61ZDr0RsX6L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81txRxXd48L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71E2EF7Rs1L._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/712ZSe3sBsL._AC_SY200_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/x6ok$LYiGGUKJXl.png": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://www.amazon.com/empty.gif": [
+        {
+            "method": "GET",
+            "query_params": {
+                "1741310119635": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://images-na.ssl-images-amazon.com/images/I/41KOTesn9UL.css": [
+        {
+            "method": "GET",
+            "query_params": {
+                "xcp": ""
             },
             "headers": {},
             "post_data": null
@@ -66,32 +2189,23 @@
         {
             "method": "GET",
             "query_params": {
-                "limit": "11",
-                "prefix": "",
-                "suggestion-type": "KEYWORD",
-                "page-type": "Gateway",
-                "alias": "aps",
-                "site-variant": "desktop",
-                "version": "3",
-                "event": "onfocus",
-                "wc": "",
-                "lop": "en_US",
-                "last-prefix": "%00",
-                "avg-ks-time": "9205",
-                "fb": "1",
-                "predicted_text_accepted": "",
-                "session-id": "142-4891928-9858311",
-                "request-id": "H5MZBPNK6VDSWDNBH15M",
-                "mid": "ATVPDKIKX0DER",
-                "plain-mid": "1",
-                "client-info": "search-ui",
-                "ni": "1"
+                "xcp": ""
             },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/I/41UfLMjJjqL._SY280_SX256_AC_Q70_.jpg": [
+    "https://images-na.ssl-images-amazon.com/images/I/21e5KB6qS1L.css": [
+        {
+            "method": "GET",
+            "query_params": {
+                "xcp": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61GfXZ+rJHL._SX1500_.jpg": [
         {
             "method": "GET",
             "query_params": {},
@@ -99,7 +2213,7 @@
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/I/51U1ueaPI9L._SY280_SX256_AC_Q70_.jpg": [
+    "https://m.media-amazon.com/images/I/51XcIydFwnL._SX1500_.jpg": [
         {
             "method": "GET",
             "query_params": {},
@@ -107,7 +2221,7 @@
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/G/01/shopbylook/shoppable-images/next_tab_control._CB416468320_.svg": [
+    "https://m.media-amazon.com/images/I/51G1R0whyRL._SX1500_.jpg": [
         {
             "method": "GET",
             "query_params": {},
@@ -115,7 +2229,127 @@
             "post_data": null
         }
     ],
-    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3DTimeToFirstSuggestion%3Adesktop%26bb0%3D324522%26be0%3D324793%26pc0%3D324793%26ld0%3D324793%26t0%3D1737141157370%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:324794": [
+    "https://m.media-amazon.com/images/I/618ccBJI9EL._SX1500_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51oAfaE6vtL._SX1500_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/51VRBtv4L9L._SX1500_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61O9AAWTn0L._SX1500_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61H2UsELblL._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/616YZHmXP1L._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71KEP+i8-gL._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/61ZjxCupa3L._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81Sa81ry1nL._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71XD0FAf9FL._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81RgMxzGwfL._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/81ljXMW0qIL._SX3000_.jpg": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26m%3D1%26sc%3Dcsa%3Avl50%26vl50%3D188%26pc%3D653%26at%3D653%26t%3D1741310119917%26csmtags%3Daui%7Caui%3Aaui_build_date%3A3.25.1-2025-02-28%7Cnavbar%7CgwCFImgCache%7Caui%3Asw%3Apage_proxy%3Ano_ctrl%7CFWCIMEnabled%7Cfls-na-amazon-com%7Ccf_cdn_fr%7Ccf_cdn_mp%7Cadblk_no%7CfourColumn%7CthreeColumnRevised%7CflexLayout%7CcssGridLayout%7Caui%3Acss%3Anetwork%7Caui%3Ajs%3Anetwork%26viz%3Dvisible%3A2%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:653": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26sc0%3Daui%3Asw%3Appft%3Acallback_ricb%26bb0%3D173%26pc0%3D205%26ld0%3D205%26t0%3D1741310119469%26sc1%3Dportal-bb%26pc1%3D1%26ld1%3D1%26t1%3D1741310119443%26sc2%3Dgw-ftGr-desktop-hero-1-visible%26cf2%3D198%26pc2%3D198%26ld2%3D198%26t2%3D1741310119462%26sc3%3DheroAf%26cf3%3D199%26pc3%3D199%26ld3%3D199%26t3%3D1741310119463%26sc4%3Dh1Af%26cf4%3D199%26pc4%3D199%26ld4%3D199%26t4%3D1741310119463%26sc5%3Ddesktop-grid-1-visible%26cf5%3D218%26pc5%3D218%26ld5%3D218%26t5%3D1741310119482%26sc6%3Ddesktop-grid-2-visible%26cf6%3D222%26pc6%3D222%26ld6%3D222%26t6%3D1741310119486%26sc7%3Ddesktop-grid-3-visible%26cf7%3D226%26pc7%3D226%26ld7%3D226%26t7%3D1741310119490%26sc8%3Ddesktop-grid-4-visible%26cf8%3D228%26pc8%3D228%26ld8%3D228%26t8%3D1741310119492%26sc9%3DnavCF%26cf9%3D230%26pc9%3D230%26ld9%3D230%26t9%3D1741310119494%26sc10%3DcsmCELLSframework%26bb10%3D247%26pc10%3D247%26ld10%3D247%26t10%3D1741310119511%26sc11%3DcsmCELLSpdm%26bb11%3D247%26pc11%3D250%26ld11%3D250%26t11%3D1741310119514%26sc12%3DcsmCELLSvpm%26bb12%3D250%26pc12%3D250%26ld12%3D250%26t12%3D1741310119514%26sc13%3DcsmCELLSfem%26bb13%3D250%26pc13%3D250%26ld13%3D250%26t13%3D1741310119514%26sc14%3Due_sushi_v1%26bb14%3D250%26pc14%3D250%26ld14%3D250%26t14%3D1741310119514%26sc15%3Ddesktop-1-visible%26cf15%3D263%26pc15%3D263%26ld15%3D263%26t15%3D1741310119527%26sc16%3DspLoadJs%26cf16%3D265%26pc16%3D265%26ld16%3D265%26t16%3D1741310119529%26sc17%3Dhero-first-image%26cf17%3D280%26pc17%3D280%26ld17%3D280%26t17%3D1741310119544%26sc18%3Dgateway-asset-load%26cf18%3D287%26pc18%3D287%26ld18%3D287%26t18%3D1741310119551%26sc19%3DjQueryReady%26cf19%3D325%26pc19%3D325%26ld19%3D325%26t19%3D1741310119589%26sc20%3DgwGridInit%26cf20%3D326%26pc20%3D326%26ld20%3D326%26t20%3D1741310119590%26sc21%3DgwBTFGridInit%26cf21%3D327%26pc21%3D327%26ld21%3D327%26t21%3D1741310119591%26sc22%3DgwLayoutReady%26cf22%3D359%26pc22%3D359%26ld22%3D359%26t22%3D1741310119623%26sc23%3DgwAUIReady%26cf23%3D360%26pc23%3D360%26ld23%3D360%26t23%3D1741310119624%26sc24%3Ddesktop-1-active%26cf24%3D362%26pc24%3D362%26ld24%3D362%26t24%3D1741310119626%26sc25%3Ddesktop-2-active%26cf25%3D362%26pc25%3D362%26ld25%3D362%26t25%3D1741310119626%26sc26%3Ddesktop-3-active%26cf26%3D362%26pc26%3D362%26ld26%3D362%26t26%3D1741310119626%26sc27%3Ddesktop-4-active%26cf27%3D362%26pc27%3D362%26ld27%3D362%26t27%3D1741310119626%26sc28%3Ddesktop-5-active%26cf28%3D362%26pc28%3D362%26ld28%3D362%26t28%3D1741310119626%26sc29%3Ddesktop-6-active%26cf29%3D362%26pc29%3D362%26ld29%3D362%26t29%3D1741310119626%26sc30%3Ddesktop-7-active%26cf30%3D362%26pc30%3D362%26ld30%3D362%26t30%3D1741310119626%26sc31%3Dgw-hero-btf-populate%26cf31%3D396%26pc31%3D396%26ld31%3D396%26t31%3D1741310119660%26sc32%3Ddesktop-btf-grid-1-visible%26cf32%3D401%26pc32%3D401%26ld32%3D401%26t32%3D1741310119665%26sc33%3Ddesktop-btf-grid-2-visible%26cf33%3D401%26pc33%3D401%26ld33%3D401%26t33%3D1741310119665%26sc34%3Ddesktop-3-visible%26cf34%3D401%26pc34%3D401%26ld34%3D401%26t34%3D1741310119665%26sc35%3Ddesktop-btf-grid-6-visible%26cf35%3D403%26pc35%3D403%26ld35%3D403%26t35%3D1741310119667%26sc36%3Ddesktop-btf-grid-4-visible%26cf36%3D403%26pc36%3D403%26ld36%3D403%26t36%3D1741310119667%26sc37%3Ddesktop-btf-grid-8-visible%26cf37%3D403%26pc37%3D403%26ld37%3D403%26t37%3D1741310119667%26sc38%3DgwHerotatorActive%26cf38%3D410%26pc38%3D410%26ld38%3D410%26t38%3D1741310119674%26sc39%3Ddesktop-4-visible%26cf39%3D434%26pc39%3D434%26ld39%3D434%26t39%3D1741310119698%26sc40%3Ddesktop-5-visible%26cf40%3D436%26pc40%3D436%26ld40%3D436%26t40%3D1741310119700%26sc41%3Ddesktop-6-visible%26cf41%3D437%26pc41%3D437%26ld41%3D437%26t41%3D1741310119701%26sc42%3Ddesktop-7-visible%26cf42%3D439%26pc42%3D439%26ld42%3D439%26t42%3D1741310119703%26sc43%3Ddesktop-2-visible%26cf43%3D442%26pc43%3D442%26ld43%3D442%26t43%3D1741310119706%26sc44%3Ddesktop-btf-grid-5-visible%26cf44%3D446%26pc44%3D446%26ld44%3D446%26t44%3D1741310119710%26sc45%3Ddesktop-btf-grid-3-visible%26cf45%3D456%26pc45%3D456%26ld45%3D456%26t45%3D1741310119720%26sc46%3Ddesktop-btf-grid-7-visible%26cf46%3D457%26pc46%3D457%26ld46%3D457%26t46%3D1741310119721%26sc47%3Dgw-ftGr-desktop-hero-2-visible%26cf47%3D520%26pc47%3D520%26ld47%3D520%26t47%3D1741310119784%26sc48%3Dgw-ftGr-desktop-hero-6-visible%26cf48%3D524%26pc48%3D524%26ld48%3D524%26t48%3D1741310119788%26sc49%3Dgw-ftGr-desktop-hero-5-visible%26cf49%3D525%26pc49%3D525%26ld49%3D525%26t49%3D1741310119789%26sc50%3Dgw-ftGr-desktop-hero-3-visible%26cf50%3D528%26pc50%3D528%26ld50%3D528%26t50%3D1741310119792%26sc51%3Dgw-ftGr-desktop-hero-4-visible%26cf51%3D531%26pc51%3D531%26ld51%3D531%26t51%3D1741310119795%26sc52%3Dgw-ftGr-desktop-hero-7-visible%26cf52%3D531%26pc52%3D531%26ld52%3D531%26t52%3D1741310119795%26sc53%3Dgw-ftGr-desktop-hero-8-visible%26cf53%3D541%26pc53%3D541%26ld53%3D541%26t53%3D1741310119805%26ctb%3D1:653": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26m%3D1%26sc%3Dcsa%3Avl90%26vl90%3D228%26pc%3D653%26at%3D653%26t%3D1741310119917%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:653": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26m%3D1%26sc%3Dcsa%3Avl100%26vl100%3D412%26pc%3D653%26at%3D653%26t%3D1741310119917%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:653": [
         {
             "method": "GET",
             "query_params": {},
@@ -127,9 +2361,62 @@
         {
             "method": "GET",
             "query_params": {
-                "rid": "H5MZBPNK6VDSWDNBH15M",
-                "sid": "142-4891928-9858311",
-                "rx": "So7ndLm7saQB7Yvdk/mkI6G1i2OLZzL9+mtW6/3XrBs"
+                "ld": "650",
+                "v": "0.307416.0",
+                "id": "SKSVNQ7Q5XJRN9XBX8HG",
+                "sw": "1280",
+                "sh": "720",
+                "vw": "1280",
+                "vh": "720",
+                "m": "1",
+                "sc": "SKSVNQ7Q5XJRN9XBX8HG",
+                "ue": "2",
+                "bb": "178",
+                "ns": "181",
+                "ne": "199",
+                "cf": "204",
+                "be": "245",
+                "fp": "223",
+                "fcp": "223",
+                "af": "264",
+                "fn": "264",
+                "pc": "649",
+                "tc": "-221",
+                "na_": "-221",
+                "ul_": "-1741310119264",
+                "_ul": "-1741310119264",
+                "rd_": "-1741310119264",
+                "_rd": "-1741310119264",
+                "fe_": "-220",
+                "lk_": "-219",
+                "_lk": "-191",
+                "co_": "-191",
+                "_co": "-129",
+                "sc_": "-170",
+                "rq_": "-129",
+                "rs_": "-4",
+                "_rs": "241",
+                "dl_": "-2",
+                "di_": "253",
+                "de_": "253",
+                "_de": "253",
+                "_dc": "649",
+                "ld_": "649",
+                "_ld": "-1741310119264",
+                "ntd": "-1",
+                "ty": "0",
+                "rc": "0",
+                "hob": "1",
+                "hoe": "2",
+                "t": "1741310119914",
+                "ctb": "1",
+                "rt": "cf:5-0-3-2-2-0-1_af:28-0-3-25-2-0-1_ld:282-8-5-265-5-0-1",
+                "pty": "Gateway",
+                "spty": "desktop",
+                "pti": "desktop",
+                "tid": "SKSVNQ7Q5XJRN9XBX8HG",
+                "aftb": "1",
+                "lob": "1"
             },
             "headers": {},
             "post_data": null
@@ -137,15 +2424,15 @@
         {
             "method": "GET",
             "query_params": {
-                "rid": "H5MZBPNK6VDSWDNBH15M",
-                "sid": "142-4891928-9858311",
-                "rx": "aTYzDt0vEMIxpQsS551Oow"
+                "rid": "SKSVNQ7Q5XJRN9XBX8HG",
+                "sid": "144-3932855-5376358",
+                "rx": "l4wBCVzA1sGP1LtjZMCqOQ"
             },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/I/51RrmQnTVAL._AC_SY195_.jpg": [
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26sw%3D1280%26sh%3D720%26vw%3D1280%26vh%3D720%26m%3D1%26sc%3DSKSVNQ7Q5XJRN9XBX8HG%26ue%3D2%26bb%3D178%26ns%3D181%26ne%3D199%26cf%3D204%26be%3D245%26fp%3D223%26fcp%3D223%26af%3D264%26fn%3D264%26pc%3D649%26tc%3D-221%26na_%3D-221%26ul_%3D-1741310119264%26_ul%3D-1741310119264%26rd_%3D-1741310119264%26_rd%3D-1741310119264%26fe_%3D-220%26lk_%3D-219%26_lk%3D-191%26co_%3D-191%26_co%3D-129%26sc_%3D-170%26rq_%3D-129%26rs_%3D-4%26_rs%3D241%26dl_%3D-2%26di_%3D253%26de_%3D253%26_de%3D253%26_dc%3D649%26ld_%3D649%26_ld%3D-1741310119264%26ntd%3D-1%26ty%3D0%26rc%3D0%26hob%3D1%26hoe%3D2%26ld%3D650%26t%3D1741310119914%26ctb%3D1%26rt%3Dcf%3A5-0-3-2-2-0-1_af%3A28-0-3-25-2-0-1_ld%3A282-8-5-265-5-0-1%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:653": [
         {
             "method": "GET",
             "query_params": {},
@@ -153,7 +2440,7 @@
             "post_data": null
         }
     ],
-    "https://aax-us-iad.amazon.com/x/px/RCcbVmyt7btLaePxh3JgjgMAAAGUdamJJgEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDIgICDrZLCy/v/%7B%22wh%22:1029,%22ww%22:1119,%22sx%22:0,%22sy%22:1427.199951171875,%22ah%22:250,%22aw%22:970,%22top%22:1011.2999877929688,%22left%22:68.5999984741211,%22v%22:%7B%22p%22:0,%22t%22:0,%22def%22:%22amzn%22%7D,%22ptv%22:351.298,%22ttv%22:350.417%7D": [
+    "https://images-na.ssl-images-amazon.com/images/I/21QWbBlFHWL.js": [
         {
             "method": "GET",
             "query_params": {},
@@ -161,7 +2448,7 @@
             "post_data": null
         }
     ],
-    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dadplacements%3Aviewablelatency%3A73950e1c-6f66-4784-b2d9-e5d5693a4353%26bb0%3D351305%26pc0%3D351306%26ld0%3D351306%26t0%3DFri%20Jan%2017%202025%2013%3A13%3A03%20GMT-0600%20(Central%20Standard%20Time)%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:351306": [
+    "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js": [
         {
             "method": "GET",
             "query_params": {},
@@ -169,7 +2456,7 @@
             "post_data": null
         }
     ],
-    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dadplacements%3Aviewablelatency%3AGateway%3Adesktop-ad-center-1%3Adesktop%26bb0%3D351305%26pc0%3D351306%26ld0%3D351306%26t0%3DFri%20Jan%2017%202025%2013%3A13%3A03%20GMT-0600%20(Central%20Standard%20Time)%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:351306": [
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26ctb%3D1%26sc0%3DjQueryDomReady%26cf0%3D664%26pc0%3D664%26ld0%3D664%26t0%3D1741310119928%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:664": [
         {
             "method": "GET",
             "query_params": {},
@@ -177,7 +2464,7 @@
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/I/51qs4OB87eL._AC_SY195_.jpg": [
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26ctb%3D1%26sc0%3DjQueryWindowLoad%26cf0%3D664%26pc0%3D664%26ld0%3D664%26t0%3D1741310119928%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:664": [
         {
             "method": "GET",
             "query_params": {},
@@ -185,7 +2472,7 @@
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/I/61H8C4llaLL._AC_SY195_.jpg": [
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26ctb%3D1%26sc0%3DjQueryPageShow%26cf0%3D665%26pc0%3D665%26ld0%3D665%26t0%3D1741310119929%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:665": [
         {
             "method": "GET",
             "query_params": {},
@@ -193,7 +2480,7 @@
             "post_data": null
         }
     ],
-    "https://aax-us-iad.amazon.com/x/px/RCcbVmyt7btLaePxh3JgjgMAAAGUdamJJgEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDIgICDrZLCy/v/%7B%22wh%22:1029,%22ww%22:1119,%22sx%22:0,%22sy%22:1506.4000244140625,%22ah%22:250,%22aw%22:970,%22top%22:932.1000366210938,%22left%22:68.5999984741211,%22v%22:%7B%22p%22:30,%22t%22:1,%22def%22:%22iab%22%7D,%22ptv%22:352.32,%22ttv%22:351.439%7D": [
+    "https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2": [
         {
             "method": "GET",
             "query_params": {},
@@ -201,118 +2488,301 @@
             "post_data": null
         }
     ],
-    "https://pagead2.googlesyndication.com/pcs/activeview": [
+    "https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/ozb5-CLHQWI6Soc.woff2": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26m%3D1%26sc%3Dcsa%3Alcp%26lcp%3D231%26pc%3D670%26at%3D670%26t%3D1741310119934%26csmtags%3Daui%3Asw%3Abrowser%3Aregister%3Asupported%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:670": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:144-3932855-5376358:SKSVNQ7Q5XJRN9XBX8HG$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.307416.0%26id%3DSKSVNQ7Q5XJRN9XBX8HG%26ctb%3D1%26sc0%3Daui%3Asw%3Actrl_changed%26bb0%3D172%26pc0%3D819%26ld0%3D819%26t0%3D1741310120083%26csmtags%3Daui%3Asw%3Actrl_changed%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DSKSVNQ7Q5XJRN9XBX8HG%26aftb%3D1%26lob%3D1:819": [
+        {
+            "method": "GET",
+            "query_params": {},
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://s.amazon-adsystem.com/iu3": [
         {
             "method": "GET",
             "query_params": {
-                "xai": "AKAOjsskcVO_o2wiaOtLffjpu32AsykG3VK-KJS6gVfaiXXaTY9v-__MXmHy5XVva-zHJYmY6VwtRG9iLf-w5Vl7WyYmZMc6gpXMU_EBZ8TKkzefhdvlQ6NH2XMyJDnP0Y1w7AeNsmqVfWOc8FMEQEQBL9ektMpVUwg",
-                "sig": "Cg0ArKJSzN8xGx5mpEnJEAE",
-                "id": "lidar2",
-                "mcvt": "1001",
-                "p": "0,0,250,970.4000244140625",
-                "tm": "350466.3999999985",
-                "tu": "349439.3999999985",
-                "mtos": "411,979,987,1001,1027",
-                "tos": "411,568,8,14,26",
-                "v": "20241204",
-                "bin": "7",
-                "avms": "nio",
-                "bs": "0,0",
-                "mc": "1",
-                "if": "1",
-                "vu": "1",
-                "app": "0",
-                "itpl": "32",
-                "adk": "1703050468",
-                "rs": "6",
-                "la": "1",
-                "cr": "0",
-                "uach": "WyJtYWNPUyIsIjE1LjIuMCIsImFybSIsIiIsIjEzMS4wLjY3NzguMjY1IixudWxsLDAsbnVsbCwiNjQiLFtbIkNocm9taXVtIiwiMTMxLjAuNjc3OC4yNjUiXSxbIk5vdF9BIEJyYW5kIiwiMjQuMC4wLjAiXV0sMF0%3D",
-                "vs": "4",
-                "r": "v",
-                "co": "3307363400",
-                "rst": "1737140833980",
-                "rpt": "620",
-                "wmsd": "0",
-                "pbe": "0",
-                "fle": "0",
-                "vae": "0",
-                "spb": "0",
-                "sfl": "0",
-                "ffslot": "0",
-                "reach": "8",
-                "io2": "0"
+                "d": "amazon.com",
+                "slot": "navFooter",
+                "a2": "01013bc51996c00c8ed6f59f91f89a42c82ab58396377720934b0b085d8d64f04d54",
+                "old_oo": "0",
+                "ts": "1741310119498",
+                "s": "AddgTQKaFxBQidSH_LFT1Xsh_7_iesK86aEXZlN_Il_t",
+                "gdpr_consent": "",
+                "gdpr_consent_avl": "",
+                "cb": "1741310119498"
             },
             "headers": {},
             "post_data": null
-        }
-    ],
-    "https://aax-us-iad.amazon.com/x/px/RCcbVmyt7btLaePxh3JgjgMAAAGUdamJJgEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDIgICDrZLCy/v/%7B%22wh%22:1029,%22ww%22:1119,%22sx%22:0,%22sy%22:1658.4000244140625,%22ah%22:250,%22aw%22:970,%22top%22:780.1000366210938,%22left%22:68.5999984741211,%22v%22:%7B%22p%22:100,%22t%22:1,%22def%22:%22groupm%22%7D,%22ptv%22:352.904,%22ttv%22:352.023%7D": [
-        {
-            "method": "GET",
-            "query_params": {},
-            "headers": {},
-            "post_data": null
-        }
-    ],
-    "https://www.amazon.com/hz/rhf": [
+        },
         {
             "method": "GET",
             "query_params": {
-                "currentPageType": "Gateway",
-                "currentSubPageType": "desktop",
-                "excludeAsin": "",
-                "fieldKeywords": "",
-                "k": "",
-                "keywords": "",
-                "search": "",
-                "auditEnabled": "",
-                "previewCampaigns": "",
-                "forceWidgets": "",
-                "searchAlias": "",
-                "cardJSPresent": "true"
+                "d": "amazon.com",
+                "slot": "navFooter",
+                "a2": "01013bc51996c00c8ed6f59f91f89a42c82ab58396377720934b0b085d8d64f04d54",
+                "old_oo": "0",
+                "ts": "1741310119498",
+                "s": "AddgTQKaFxBQidSH_LFT1Xsh_7_iesK86aEXZlN_Il_t",
+                "gdpr_consent": "",
+                "gdpr_consent_avl": "",
+                "cb": "1741310119498",
+                "dcc": "t"
             },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png": [
-        {
-            "method": "GET",
-            "query_params": {},
-            "headers": {},
-            "post_data": null
-        }
-    ],
-    "https://m.media-amazon.com/images/S/sash/ZpbG74laklgnz-i.png": [
-        {
-            "method": "GET",
-            "query_params": {},
-            "headers": {},
-            "post_data": null
-        }
-    ],
-    "https://images-na.ssl-images-amazon.com/images/I/51p-Uo3bNjL.js": [
+    "https://s.amazon-adsystem.com/v3/pr": [
         {
             "method": "GET",
             "query_params": {
-                "xcp": ""
+                "exlist": "n-xr-HMT_n-id-HMT_n-eq-HMT3_n-ix-HMT_n-y-HMT_n-cx-HMT_n-telaria_n-dx-HMT2_imdb_n-lucid_n-samba.tv_n-rb-HMT3_adb_mp_af_n-sk_n-mediarithmics_n-lm-HMT3_index_n-kg-HMT_an_n-pm-HMT_nsln_fbca_nd_n-ym-HMT_n-ox-hmt_tbl_n-nt-HMT_ns_bsw_bk_n-dm2-HMT_gem_n-zeotap-4_fw_n-fo-HMT_n-kr-new_n-bsw-hmt_n-st-HMT1_n-fw-HMT1_n-og-HMT_adelphic_g_kr_n-comscr.com_ox_n-tl-HMT_n-semasio-ecm_n-gg-HMT2_n-g-hmt_n-ispot_pm",
+                "fv": "1.0",
+                "ex-pl-fbca": "bNIlRsK1TgKOvLFd5065-w",
+                "a": "cm",
+                "ex-pl-n-kr-new": "6JtuEuehR_umyW2aSiSTYA",
+                "dmt": "1",
+                "gdpr_consent": "",
+                "ex-pl-n-g-hmt": "fKepTsVCTYeiaoRh2kpTZQ",
+                "ep": "ttam_T219Ay-cPciHbT10pTOyid1pznKHcW5Ie-Ixl8N8dZn7jt-KjKwov57c3gyWTkQlQC5xDNE3BmGj995c112L9NqWBC5vyF_FKkXIjI6LCA18qQwcnNhoLrvhZGWcV8xydschqLXBar7jiQ5jrbFDPsZnWwv1iTlqhIu2ZQ8TR9Qt2URTsu-nWuFjU0tZlCyPeAN5_viUBPQGfZixDzW_PmudRazSM85Ffq5CdCbYYmJz0N2rqmxUveliXpilxL6UckUc565gUVD9eXVvcQDIXEr4IzMkvJ9V1SophCBcqhh2WE7krOzZaOG6wHGqKUrUzza-TBlrL4DYj98rk3LqDWKVdrmW-WYg8GM-c3cXkdWxDzpAFvIyfptVgIFqo_F81C3ZQYdmYGbo9wVVvcPt64AYPcYNA5m1Rg23sZSosVeAsCNXeYOaT5Qmr7MpKnNCIms1u0DyXEJ1vVL9pYPRlYpTiiS-8nCu4J4PhGynAFhq9OYP05tixSjAMVCzdunAIp9Ca_W2H4vhK5FNJbKYaCnAN2bdIU_6niLs77o95rdjwJFrK6g1_7N00SeziqsBdWcM64UVm5gWPPpa4V6pAbaV6VTurvoijtxaBW1eOgdpQa9vatkARLk33NeYeQZk92z8EAKrKL3rhfCgnFuFWHZ3zjC__XFUwnmqPhxfSUB-LToxj1nfx_u0MN25GUx04qAOayZRgtiWI6uAGiqqypP7WfMUKn4RQ1Nh_g7Dyct8S3DdZPETSGXBPPUFrsRJH936k_EHieAivHTpJ0oYyykg250g19tQviLbYjiQOMEtPqar8J4xo8OpNiyQeZ-JudmPD2GTvDXCZ0HS9n7qj5JCU6zhyrDwsnszu8jDSoBK9f3XULoGM-C3Tzn0mz1Rxqc7bvbnZtVBQXbcYvoqrvjrgr8MzM6IYg7Mjb9f6UyuLaL8JSjIEOtlK9yNybsDcvtA_A9J_eorOLlcrJzs0xbK41rgOgojz7L4T5aTK-cTl_nppM-nINTUWt_fK__wVSyK34s429bKNZpsFvphXrk-sx2vTt9NX2KBdWGOQTO2y2KAfsVOrw7RL8VHb4d-2MN34dg-FiDmes2uvTLBARYvg8HvBLsildipTJD8bABNoq1xKJj5CqsMXod6p84KZ_sRxhNSz5BSKBSxqay03cIx3t-i_Ur3sq7AjUjC2dghPiWzAFUN-mrNiRwPCU-wBmuAbV7Zhf62zSszHwnR_UND5t4oq56i0FqIGH2MsQypJ7rszuiUdcYI4HnM2rImEixz5IBDGxJXGE8GvCo1zHmrtHdauR6mdcR-wECiMkWQjZU3yC-rZuWr8Kh"
             },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/31To440CwiL.js": [
+    "https://ib.adnxs.com/setuid/a9": [
         {
             "method": "GET",
             "query_params": {
-                "xcp": ""
+                "entity": "188",
+                "code": "91x0nFMQTIer3Z3itTYczw",
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=xandrHMT&id=$UID",
+                "gdpr_consent": ""
             },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/51kpytThp1L._AC_UL165_SR165,165_.jpg": [
+    "https://match.360yield.com/match": [
+        {
+            "method": "GET",
+            "query_params": {
+                "publisher_dsp_id": "416",
+                "external_user_id": "Z5j2Ylf0StanDbKrFwxDNw",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=improvedigitalHMT&id={PUB_USER_ID}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://rtb-csync.smartadserver.com/redir/": [
+        {
+            "method": "GET",
+            "query_params": {
+                "partnerid": "144",
+                "partneruserid": "yaamN6gTQhSiTpOioayFsg",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://dsum-sec.casalemedia.com/rrum": [
+        {
+            "method": "GET",
+            "query_params": {
+                "cm_dsp_id": "198",
+                "external_user_id": "o3Hyo3AYQ8iRWEGmyRLDqQ",
+                "cb": "https://s.amazon-adsystem.com/ecm3?ex=indexHMT&id=",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "cb": "https://s.amazon-adsystem.com/ecm3?ex=indexHMT&id=",
+                "cm_dsp_id": "198",
+                "external_user_id": "o3Hyo3AYQ8iRWEGmyRLDqQ",
+                "gdpr_consent": "",
+                "C": "1"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://pbs.yahoo.com/setuid": [
+        {
+            "method": "GET",
+            "query_params": {
+                "bidder": "amazon",
+                "uid": "uO1wlwyJTlGChz1xp72QVA",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://capi.connatix.com/us/pixel": [
+        {
+            "method": "GET",
+            "query_params": {
+                "pId": "32",
+                "puId": "t1J8aEUQSgCDyvkck-dCZA",
+                "callback": "https://s.amazon-adsystem.com/ecm3?ex=connatixHMT&id={puId}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "pId": "32",
+                "puId": "t1J8aEUQSgCDyvkck-dCZA",
+                "callback": "https://s.amazon-adsystem.com/ecm3?ex=connatixHMT&id={puId}",
+                "gdpr_consent": "",
+                "final": "true"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://amazon.partners.tremorhub.com/sync": [
+        {
+            "method": "GET",
+            "query_params": {
+                "UIAM": "",
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=telaria.com&id=[PARTNER_ID]"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://geo.ads.audio.thisisdax.com/sync": [
+        {
+            "method": "GET",
+            "query_params": {
+                "tp_id": "792",
+                "dsp_dax_listenerid": "Ax90G9G9QOiT9BnjV0IcxA",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://www.imdb.com/ads/idsync": [
+        {
+            "method": "GET",
+            "query_params": {
+                "cid": "a706a6beb",
+                "ex": "imdb.com"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://usersync.samplicio.us/amazon/pixel.gif": [
+        {
+            "method": "GET",
+            "query_params": {
+                "https://s.amazon-adsystem.com/ecm3?ex": "luc.id",
+                "id": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://ads.samba.tv/cookie_sync": [
+        {
+            "method": "GET",
+            "query_params": {
+                "https://s.amazon-adsystem.com/ecm3?ex=samba.tv&id=": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://pixel.rubiconproject.com/token": [
+        {
+            "method": "GET",
+            "query_params": {
+                "pid": "2179",
+                "pt": "n",
+                "puid": "Yl3OpmljQNKP9lIOUkOUbw",
+                "rk": "usync-na",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://dpm.demdex.net/ibs:dpid=139200&dpuuid=ifQutMmeTHq-C5P2H7_HUw&redir=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dadobe.com%26id%3D%24%7BDD_UUID%7D": [
         {
             "method": "GET",
             "query_params": {},
@@ -320,7 +2790,228 @@
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/61Qebc4CQoL._AC_UL165_SR165,165_.jpg": [
+    "https://odr.mookie1.com/t/v2": [
+        {
+            "method": "GET",
+            "query_params": {
+                "tagid": "V2_393725",
+                "AMAZON_REGION_SPECIFIC_ENDPOINT": "s.amazon-adsystem.com",
+                "src.visitorID": "mDe1UJS9RDCroqyCEcOJBQ"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://c1.adform.net/serving/cookie/match": [
+        {
+            "method": "GET",
+            "query_params": {
+                "party": "1153",
+                "redirect_url": "https://s.amazon-adsystem.com/ecm3?ex=adform.net&id=${UUID}"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "CC": "1",
+                "party": "1153",
+                "redirect_url": "https://s.amazon-adsystem.com/ecm3?ex=adform.net&id=${UUID}"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://bs.serving-sys.com/Serving": [
+        {
+            "method": "GET",
+            "query_params": {
+                "cn": "cs",
+                "rtu": "https://s.amazon-adsystem.com/ecm3?ex=sizmek&id=[%tp_UserID%]"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://cookie-matching.mediarithmics.com/v1/get_user_agent_id": [
+        {
+            "method": "GET",
+            "query_params": {
+                "dom_token": "amazon-na-23",
+                "gdpr": "0",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://csync.loopme.me/": [
+        {
+            "method": "GET",
+            "query_params": {
+                "partner_id": "1392",
+                "uid": "_Jx7opYaSvSms195F_5_cw",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=loopmeHMT",
+                "id": "",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://ssum-sec.casalemedia.com/usermatchredir": [
+        {
+            "method": "GET",
+            "query_params": {
+                "s": "184155",
+                "cb": "https://s.amazon-adsystem.com/ecm3?ex=index&id=__UID__"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://crb.kargo.com/api/v1/dsync/amazon": [
+        {
+            "method": "GET",
+            "query_params": {
+                "exid": "xFnM351bQOmGI4FF6ikIYw",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=KargoHMT",
+                "id": "",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://ib.adnxs.com/getuid": [
+        {
+            "method": "GET",
+            "query_params": {
+                "https://s.amazon-adsystem.com/ecm3?id": "$UID",
+                "ex": "appnexus.com",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "https://cookie-matching.mediarithmics.com/input?key": "APX",
+                "apx_uid": "$UID",
+                "opid": "apx",
+                "ops": "",
+                "utidl": "tech:goo:CAESEHfGwLH90T7Ygu-G9m4tdC0",
+                "gdpr_consent": "",
+                "gdpr": "0",
+                "action": "GET_ID",
+                "etid": "",
+                "domid": "1109"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://image2.pubmatic.com/AdServer/Pug": [
+        {
+            "method": "GET",
+            "query_params": {
+                "vcode": "bz0yJnR5cGU9MSZjb2RlPTM0MzgmdGw9MTI5NjAw",
+                "piggybackCookie": "NcqOfFT_Qge00zjT54KOOQ",
+                "rd": "https://s.amazon-adsystem.com/ecm3?ex=pubmaticHMT&id=${DSP_UID}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://loadus.exelator.com/load/": [
+        {
+            "method": "GET",
+            "query_params": {
+                "p": "204",
+                "g": "8888",
+                "j": "0"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "p": "204",
+                "g": "8888",
+                "j": "0",
+                "xl8blockcheck": "1"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://www.facebook.com/fr/r.php": [
+        {
+            "method": "GET",
+            "query_params": {
+                "p": "558293300959460",
+                "e": "bNIlRsK1TgKOvLFd5065-w",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=fbca&id=bNIlRsK1TgKOvLFd5065-w",
+                "s": "1741310120",
+                "h": "RXVjZEFMYmlLdGRaOW9oMy-n6n_zwAy0MDOGWNedJnTnQIwm"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://lciapi.ninthdecimal.com/v1/lci/sync/adv-amzn/c-23445/": [
+        {
+            "method": "GET",
+            "query_params": {
+                "rdr": "https://s.amazon-adsystem.com/ecm3?&ex=ninthdecimal.com&id=${ND_UID}"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://sync-amazon.ads.yieldmo.com/sync": [
+        {
+            "method": "GET",
+            "query_params": {
+                "pn_id": "amazon",
+                "id": "QgFe8vpvQp2GYOjZ0MTgNw",
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=yieldmoHMT&id={{userid}}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://us-u.openx.net/w/1.0/sd": [
+        {
+            "method": "GET",
+            "query_params": {
+                "id": "537072986",
+                "val": "1cdWBfzPQ1e-Zaga9bNn0w",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=openxHMT&id={OPENX_RTB_USERID}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "cc": "1",
+                "id": "537072986",
+                "val": "1cdWBfzPQ1e-Zaga9bNn0w",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=openxHMT&id={OPENX_RTB_USERID}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://sync.taboola.com/sg/amazon-a9-network/1/rtb": [
         {
             "method": "GET",
             "query_params": {},
@@ -328,114 +3019,860 @@
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/41siPqHKP1L._AC_UL165_SR165,165_.jpg": [
+    "https://jadserve.postrelease.com/suid/102012": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "vk": "Umi3T-dUTyGWSSKprhu_Fg",
+                "ntv_r": "https://s.amazon-adsystem.com/ecm3?ex=nativoHMT",
+                "id": "",
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/81WsSyAYxHL._AC_UL165_SR165,165_.jpg": [
+    "https://aa.agkn.com/adscores/g.pixel": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "sid": "9212284268"
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/41MWSX8igXL._AC_UL165_SR165,165_.jpg": [
+    "https://x.bidswitch.net/sync_a9/https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dbidswitch.com%26id%3D%24%7BUUID%7D": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/61ppHEzQfnL._AC_UL165_SR165,165_.jpg": [
+    "https://tags.bluekai.com/site/36840": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=bluekai.com&id=$_BK_UUID"
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/61mT-XwnVgL._AC_UL100_SR100,100_.jpg": [
+    "https://public-prod-dspcookiematching.dmxleo.com/dspreply": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "dspId": "1868",
+                "dspUserId": "wHZJ9syhRT60asEcJFZBwg",
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=dailymotionHMT2",
+                "id": "",
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/71shNida-7L._AC_UL100_SR100,100_.jpg": [
+    "https://cms.analytics.yahoo.com/cms": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "partner_id": "AMAZON",
+                "ex": "gemini"
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/718r5OA3czL._AC_UL100_SR100,100_.jpg": [
+    "https://spl.zeotap.com/": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "zdid": "1353",
+                "zurl": "https://s.amazon-adsystem.com/ecm3?ex=zeotap&id={ZCOOKIE}"
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/716AorLgzKL._AC_UL100_SR100,100_.jpg": [
+    "https://ads.stickyadstv.com/user-matching": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "id": "2545",
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/81F7bTfj+4L._AC_UL100_SR100,100_.jpg": [
+    "https://sync.rfp.fout.jp/map": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "dsp_id": "13",
+                "uid": "oBGspnTqTBiqSt1gMnvsXQ",
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/51iifuorpCL._AC_UL100_SR100,100_.jpg": [
+    "https://beacon.krxd.net/usermatch.gif": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "partner": "amzn",
+                "partner_uid": "6JtuEuehR_umyW2aSiSTYA",
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=krux.com&id="
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dp13n-desktop-carousel_desktop-rhf_0%26bb0%3D354411%26be0%3D354412%26pc0%3D354483%26ld0%3D354483%26t0%3D1737141187060%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:354483": [
+    "https://x.bidswitch.net/sync_a9/val=m_OzaoquT-y7NdtsA3GqaQ&redirect=https://s.amazon-adsystem.com/ecm3": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "ex": "bidswitch.com",
+                "id": "${UUID}",
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:142-4891928-9858311:H5MZBPNK6VDSWDNBH15M$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.303938.0%26id%3DH5MZBPNK6VDSWDNBH15M%26ctb%3D1%26sc0%3Dp13n-rvi_desktop-rvi_0%26bb0%3D354413%26be0%3D354413%26pc0%3D354486%26ld0%3D354486%26t0%3D1737141187063%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DH5MZBPNK6VDSWDNBH15M%26aftb%3D1%26lob%3D1:354486": [
+    "https://match.sharethrough.com/sync/v1": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "source_id": "wE4DpHXcQL5mguNBAJxVK3sW",
+                "source_user_id": "aVpNqySLSb6de41avpl3yQ",
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/814o8a13uvL._AC_UL100_SR100,100_.jpg": [
+    "https://ads.stickyadstv.com/user-registering": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "dataProviderId": "961",
+                "userId": "0ell3J1aRpiw15uJfNkiQA",
+                "redirectId": "2545",
+                "gdpr_consent": ""
+            },
             "headers": {},
             "post_data": null
         }
     ],
-    "https://images-na.ssl-images-amazon.com/images/I/81RFZxncM1L._AC_UL100_SR100,100_.jpg": [
+    "https://ms-cookie-sync.presage.io/user-sync": [
         {
             "method": "GET",
-            "query_params": {},
+            "query_params": {
+                "amazondsp_id": "WYvzZmfyT9mr-VVTjpE-Kg",
+                "redirect": "https://s.amazon-adsystem.com/ecm3?ex=oguryHMT",
+                "id": "",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://cm.g.doubleclick.net/pixel": [
+        {
+            "method": "GET",
+            "query_params": {
+                "google_nid": "a9",
+                "google_cm": "",
+                "ex": "doubleclick.net",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "google_nid": "a9",
+                "google_hm": "fKepTsVCTYeiaoRh2kpTZQ",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "google_nid": "medr",
+                "google_cm": "",
+                "key": "GOO",
+                "gdpr_consent": "",
+                "gdpr": "0",
+                "action": "GET_ID",
+                "opid": "goo",
+                "etid": "",
+                "domid": "1109",
+                "ops": "apx"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "google_nid": "a9",
+                "google_hm": "fKepTsVCTYeiaoRh2kpTZQ",
+                "gdpr_consent": "",
+                "google_tc": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "google_nid": "a9",
+                "google_cm": "",
+                "ex": "doubleclick.net",
+                "gdpr_consent": "",
+                "google_tc": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "google_nid": "medr",
+                "google_cm": "",
+                "key": "GOO",
+                "gdpr_consent": "",
+                "gdpr": "0",
+                "action": "GET_ID",
+                "opid": "goo",
+                "etid": "",
+                "domid": "1109",
+                "ops": "apx",
+                "google_tc": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://usermatch.krxd.net/um/v2": [
+        {
+            "method": "GET",
+            "query_params": {
+                "partner": "amzn"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://sb.scorecardresearch.com/p": [
+        {
+            "method": "GET",
+            "query_params": {
+                "c1": "9",
+                "c2": "27552257",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=comscore.com&id=%AX_UUID%"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://us-u.openx.net/w/1.0/cm": [
+        {
+            "method": "GET",
+            "query_params": {
+                "id": "e818ca1e-0c23-caa8-0dd3-096b0ada08b7",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=openx.com&id={OPENX_ID}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "cc": "1",
+                "id": "e818ca1e-0c23-caa8-0dd3-096b0ada08b7",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=openx.com&id={OPENX_ID}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://eb2.3lift.com/xuid": [
+        {
+            "method": "GET",
+            "query_params": {
+                "mid": "8341",
+                "xuid": "OVp1lDsMStWP1UDn8kZ48w",
+                "dongle": "az46",
+                "rdir": "https://s.amazon-adsystem.com/ecm3?ex=tripleliftHMT&id=$UID",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ld": "1",
+                "mid": "8341",
+                "xuid": "OVp1lDsMStWP1UDn8kZ48w",
+                "dongle": "az46",
+                "gdpr": "0",
+                "cmp_cs": "",
+                "us_privacy": "",
+                "rdir": "https://s.amazon-adsystem.com/ecm3?ex=tripleliftHMT&id=$UID"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://uipglob.semasio.net/amazon/1/get": [
+        {
+            "method": "GET",
+            "query_params": {
+                "_url": "https://s.amazon-adsystem.com/ecm3?ex=semasio&id=${UIPID()}"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://usersync.gumgum.com/usersync": [
+        {
+            "method": "GET",
+            "query_params": {
+                "b": "amz",
+                "i": "edw17W9qQl2CA8EBseLsJQ",
+                "n": "y",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=gumgumHMT",
+                "id": "[UID]",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://pi.ispot.tv/v2/TC-3673-1.gif": [
+        {
+            "method": "GET",
+            "query_params": {
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=ispot.tv&id={ISID}"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://image6.pubmatic.com/AdServer/UCookieSetPug": [
+        {
+            "method": "GET",
+            "query_params": {
+                "rd": "https://s.amazon-adsystem.com/ecm3?ex=pubmatic.com&id=#PM_USER_ID",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://s.amazon-adsystem.com/ecm3": [
+        {
+            "method": "GET",
+            "query_params": {
+                "rcode": "1",
+                "ex": "imdb.com"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "indexHMT",
+                "id": "Z8pIqEt3uV8AIyHVAC0LGwAA"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "connatixHMT",
+                "id": "t1J8aEUQSgCDyvkck-dCZA"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "improvedigitalHMT",
+                "id": "d8192abb-956b-4eaa-8c75-40ba8c7272b6",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "samba.tv",
+                "id": "1488c4940193ebf62"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "rubiconprojectHMT",
+                "id": "Yl3OpmljQNKP9lIOUkOUbw"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "index",
+                "id": "Lph_mBtD8ydwcWLheUhlLjc4cO84ZgIC"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "mplatform.com",
+                "id": "10607947450933200086",
+                "gdpr": "",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "adobe.com",
+                "id": "64527435749266068773848838797803838246"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "adform.net",
+                "id": "7603749514775149152"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "fbca",
+                "id": "bNIlRsK1TgKOvLFd5065-w"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "ninthdecimal.com",
+                "id": "08449A0AA948CA6720004B140233A14D"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "yieldmoHMT",
+                "id": "QgFe8vpvQp2GYOjZ0MTgNw"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "nielsen",
+                "id": "32f844f687f93e0456c7cb4d708f03a7"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "id": "213810605179001556763",
+                "ex": "neustar.biz"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "pubmaticHMT",
+                "id": "NcqOfFT_Qge00zjT54KOOQ"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "openxHMT",
+                "id": "1cdWBfzPQ1e-Zaga9bNn0w"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "bidswitch.com",
+                "id": "0c6c44ef6322121524c925cc57309ca8"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "id": "y-O.ZQL_BE2pFzCpSiaNg0jtyZ5Kz5kwJGV6no~A",
+                "status": "NOT_FOUND",
+                "ex": "gemini"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "id": "a1e2fad664a46f7efb4833a9a9d1f32c",
+                "ex": "freewheel.tv",
+                "gdpr": "",
+                "gdpr_consent": "",
+                "userId": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "id": "46623023a4203bfd5f46ec292fcaf6fb",
+                "ex": "freewheel.tv",
+                "gdpr": "{gdpr}",
+                "gdpr_consent": "{gdpr_consent}",
+                "userId": "0ell3J1aRpiw15uJfNkiQA"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "zeotap",
+                "id": "5be3cd17-136f-453b-6969-d6fcbbe13a05"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "openx.com",
+                "id": "6a2adcee-5f93-cc5e-2a4a-0cdffca108b6",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "oguryHMT"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "doubleclick.net",
+                "gdpr_consent": "",
+                "google_gid": "CAESEBsOioGYGf0PJlHPVdQA0pw",
+                "google_cver": "1"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "googleHMT",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "gumgumHMT"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "comscore.com",
+                "id": "1ad66d8079e8535023e8e092925b3fdd"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "tripleliftHMT",
+                "id": "2914465092086785375662"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "ispot.tv",
+                "id": "ede1fe4911261f58ab74135823b63a320d2beb1e395cbbdeb7b4c2ae3f0b6818"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "semasio",
+                "id": "1CE26AB290BABB64"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "ex": "pubmatic.com",
+                "id": "2416D1B3-5FA3-4CF4-BFAE-55A7C4C7E3EC"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://match.360yield.com/ul_cb/match": [
+        {
+            "method": "GET",
+            "query_params": {
+                "publisher_dsp_id": "416",
+                "external_user_id": "Z5j2Ylf0StanDbKrFwxDNw",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=improvedigitalHMT&id={PUB_USER_ID}",
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://dpm.demdex.net/demconf.jpg": [
+        {
+            "method": "GET",
+            "query_params": {
+                "et:ibs|data:dpid": "139200",
+                "dpuuid": "ifQutMmeTHq-C5P2H7_HUw",
+                "redir": "https://s.amazon-adsystem.com/ecm3?ex=adobe.com&id=${DD_UUID}"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/31mqNgZQVBL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/PuffAuiAssets": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/41enQvbo0+L.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/AmazonLightsaberPageAssets": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/11RhjigBo3L.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/WebFlowIngressJs": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://m.media-amazon.com/images/I/71EOqyQDjOL.js": [
+        {
+            "method": "GET",
+            "query_params": {
+                "AUIClients/FWCIMAssets": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://www.amazon.com/puff/content": [
+        {
+            "method": "GET",
+            "query_params": {
+                "data": "{\"pageType\":\"Gateway\",\"subPageType\":\"desktop\",\"referrer\":\"\",\"hostName\":\"www.amazon.com\",\"path\":\"/\",\"queryString\":\"\"}"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://image4.pubmatic.com/AdServer/SPug": [
+        {
+            "method": "GET",
+            "query_params": {
+                "partnerID": "100",
+                "gdpr": "0",
+                "gdpr_consent": "",
+                "us_privacy": "",
+                "gpp": "",
+                "gpp_sid": "",
+                "pr": "https://s.amazon-adsystem.com/ecm3?ex=pubmaticHMT&id=NcqOfFT_Qge00zjT54KOOQ"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://ups.analytics.yahoo.com/ups/58725/cms": [
+        {
+            "method": "GET",
+            "query_params": {
+                "partner_id": "AMAZON",
+                "ex": "gemini"
+            },
+            "headers": {},
+            "post_data": null
+        },
+        {
+            "method": "GET",
+            "query_params": {
+                "partner_id": "AMAZON",
+                "ex": "gemini",
+                "verify": "true"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://x.bidswitch.net/ul_cb/sync_a9/https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dbidswitch.com%26id%3D%24%7BUUID%7D": [
+        {
+            "method": "GET",
+            "query_params": {
+                "gdpr_consent": ""
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://mwzeom.zeotap.com/mw": [
+        {
+            "method": "GET",
+            "query_params": {
+                "zpartnerid": "1353",
+                "env": "mWeb",
+                "eventType": "map",
+                "id_mid_4": "5be3cd17-136f-453b-6969-d6fcbbe13a05",
+                "id_mid_61": "5be3cd17-136f-453b-6969-d6fcbbe13a05",
+                "reqId": "0c611845-80ce-4b67-73bb-4a136c44f2dc",
+                "zdid": "1353",
+                "zurl": "https://s.amazon-adsystem.com/ecm3?ex=zeotap&id={ZCOOKIE}"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://cookie-matching.mediarithmics.com/v1/get_or_create": [
+        {
+            "method": "GET",
+            "query_params": {
+                "gdpr": "0",
+                "gdpr_consent": "",
+                "domid": "1109"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://sb.scorecardresearch.com/p2": [
+        {
+            "method": "GET",
+            "query_params": {
+                "c1": "9",
+                "c2": "27552257",
+                "r": "https://s.amazon-adsystem.com/ecm3?ex=comscore.com&id=%AX_UUID%"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://cookie-matching.mediarithmics.com/input": [
+        {
+            "method": "GET",
+            "query_params": {
+                "key": "GOO",
+                "gdpr_consent": "",
+                "gdpr": "0",
+                "action": "GET_ID",
+                "opid": "goo",
+                "etid": "",
+                "domid": "1109",
+                "ops": "apx",
+                "google_gid": "CAESEHfGwLH90T7Ygu-G9m4tdC0",
+                "google_cver": "1"
+            },
+            "headers": {},
+            "post_data": null
+        }
+    ],
+    "https://uipglob.semasio.net/amazon/1/get2": [
+        {
+            "method": "GET",
+            "query_params": {
+                "_url": "https://s.amazon-adsystem.com/ecm3?ex=semasio&id=${UIPID()}"
+            },
             "headers": {},
             "post_data": null
         }

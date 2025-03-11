@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Detection Engine</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    pre { white-space: pre-wrap; word-wrap: break-word; }
+    .table-container {
+      max-height: 400px; /* Adjust the height as needed */
+      overflow-y: auto;
+    }
+    .table td, .table th {
+      white-space: nowrap;
+    }
+    .copy-btn {
+      display: none;
+      margin-left: 5px;
+    }
+    td:hover .copy-btn {
+      display: inline-block;
+    }
+    .truncated {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 150px; /* Adjust width as needed */
+      cursor: pointer;
+    }
+    .expanded {
+      white-space: normal;
+    }
+  </style>
+</head>
+<body>
+<div class="container mt-5">
+  <h1 class="mb-4">API Detection Engine</h1>
+  
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="alert alert-warning">
+        {% for message in messages %}
+          <p>{{ message }}</p>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+  
+  <form method="POST" action="{{ url_for('index') }}">
+    <div class="form-group">
+      <label for="url">URL:</label>
+      <input type="text" class="form-control" id="url" name="url" placeholder="Enter URL (e.g., https://www.example.com)" required>
+    </div>
+    <div class="form-group">
+      <label for="request_type">Request Type:</label>
+      <select class="form-control" id="request_type" name="request_type" required>
+        <option value="GET" {% if request_type == 'GET' %}selected{% endif %}>GET</option>
+        <option value="POST" {% if request_type == 'POST' %}selected{% endif %}>POST</option>
+        <option value="PUT" {% if request_type == 'PUT' %}selected{% endif %}>PUT</option>
+        <option value="DELETE" {% if request_type == 'DELETE' %}selected{% endif %}>DELETE</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Run Pipeline</button>
+  </form>
+  
+  {% if endpoints %}
+  <hr>
+  <h2>Processed Endpoints</h2>
+  <div class="table-container">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th>URL</th>
+          <th>Description</th>
+          <th>Method</th>
+          <th>Required Headers</th>
+          <th>Example Params</th>
+          <th>Curl Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for endpoint in endpoints %}
+        <tr>
+          <td class="truncated" onclick="toggleExpand(event)">
+            {{ endpoint.url }}
+            <button class="btn btn-sm btn-outline-secondary copy-btn" onclick="copyToClipboard('{{ endpoint.url }}')">Copy</button>
+          </td>
+          <td>{{ endpoint.description }}</td>
+          <td>{{ endpoint.method }}</td>
+          <td>
+            <ul class="list-unstyled">
+              {% for key, value in endpoint.required_headers.items() %}
+              <li><strong>{{ key }}:</strong> {{ value }}</li>
+              {% endfor %}
+            </ul>
+          </td>
+          <td>
+            {% if endpoint.example_params %}
+              {{ endpoint.example_params }}
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+          <td>
+            <pre>{{ endpoint.curl_example }}</pre>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+  
+</div>
+
+<script>
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Copied to clipboard');
+    }).catch(err => {
+      console.error('Failed to copy: ', err);
+    });
+  }
+
+  function toggleExpand(event) {
+    const cell = event.currentTarget;
+    cell.classList.toggle('expanded');
+  }
+</script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 import json
 from collections import defaultdict
+import sys
 
 def filter_and_preprocess_har(har_file_path, request_type):
     with open(har_file_path, 'r') as file:
@@ -36,8 +37,12 @@ def filter_and_preprocess_har(har_file_path, request_type):
     return dict(grouped_requests)
 
 if __name__ == "__main__":
-    har_file_path = "test_files/www.amazon.com.har"
-    request_type = "GET"
+    if len(sys.argv) != 3:
+        print("Usage: python har_filter_requests.py <HAR_FILE_PATH> <REQUEST_TYPE>")
+        sys.exit(1)
+
+    har_file_path = sys.argv[1]
+    request_type = sys.argv[2]
     
     preprocessed_data = filter_and_preprocess_har(har_file_path, request_type)
     

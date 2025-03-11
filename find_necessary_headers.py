@@ -91,7 +91,7 @@ def test_api_with_headers(api_endpoint: str, method: str, headers: Dict[str, str
                 else:
                     print(f"Request changed without {header} (status: {response.status}, body changed: {current_body != initial_body}), keeping it")
 
-                time.sleep(1)
+                time.sleep(0.1)
 
             except Exception as e:
                 print(f"Error testing without {header}: {e}")
