@@ -16,6 +16,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 class EndpointAnalysis(BaseModel):
     url: str
     explanation: str
+    usefulness_score: int
 
 def analyze_endpoints_with_llm(preprocessed_data):
     try:
@@ -47,9 +48,17 @@ def analyze_endpoints_with_llm(preprocessed_data):
                     "- Search and recommendation results\n"
                     "- Logs, system events, or behavioral data\n\n"
                     "Please analyze the provided endpoints and determine which ones are likely to contain valuable data. "
-                    "Provide a clear explanation for each endpoint you identify as valuable. If no endpoints are found valuable, "
-                    "include at least one as a potential candidate with a reason why it might be useful.\n\n"
-                    "Format the response strictly as a JSON object with an 'endpoints' array containing URL(s) and explanations."
+                    "For each endpoint you identify:\n"
+                    "1. Provide a clear explanation of why it's valuable\n"
+                    "2. Assign a usefulness score from 0-100 where:\n"
+                    "   - 0-20: Minimal value, mostly static or basic data\n"
+                    "   - 21-40: Some value but limited utility\n"
+                    "   - 41-60: Moderately useful data\n"
+                    "   - 61-80: High-value data with clear utility\n"
+                    "   - 81-100: Critical data with significant strategic value\n\n"
+                    "If no endpoints are found valuable, include at least one as a potential candidate with a reason why it might be useful "
+                    "and a corresponding score.\n\n"
+                    "Format the response strictly as a JSON object with an 'endpoints' array containing URL(s), explanations, and usefulness scores."
                 )
             },
             {

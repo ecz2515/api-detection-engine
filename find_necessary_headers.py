@@ -19,15 +19,18 @@ def load_matched_requests(file_path: str) -> List[Dict]:
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def load_endpoint_descriptions(file_path: str) -> Dict[str, str]:
-    descriptions = {}
+def load_endpoint_descriptions(file_path: str) -> Dict[str, Dict]:
+    endpoint_data = {}
     
     with open(file_path, 'r') as f:
         endpoints_data = json.load(f)
         for endpoint in endpoints_data:
-            descriptions[endpoint["url"]] = endpoint["explanation"]
+            endpoint_data[endpoint["url"]] = {
+                "explanation": endpoint["explanation"],
+                "usefulness_score": endpoint["usefulness_score"]
+            }
     
-    return descriptions
+    return endpoint_data
 
 def test_api_with_headers(api_endpoint: str, method: str, headers: Dict[str, str]) -> Dict[str, str]:
     with sync_playwright() as p:
@@ -190,7 +193,7 @@ def test_minimal_headers():
         except Exception as e:
             print(f"✗ Test failed: {str(e)}")
 
-def format_endpoint_data(request, endpoint_descriptions):
+def format_endpoint_data(request, endpoint_data):
     parsed_url = urlparse(request.api_endpoint)
     base_url = f"{parsed_url.scheme}://{parsed_url.netloc}{parsed_url.path}"
     
@@ -211,9 +214,12 @@ def format_endpoint_data(request, endpoint_descriptions):
     # Store the complete URL with all parameters, no truncation
     curl_cmd = f"curl '{request.api_endpoint}' \\\n  {headers_str}"
     
+    endpoint_info = endpoint_data.get(base_url, {"explanation": "No description available", "usefulness_score": 0})
+    
     return {
         "url": base_url,
-        "description": endpoint_descriptions.get(base_url, "No description available"),
+        "description": endpoint_info["explanation"],
+        "usefulness_score": endpoint_info["usefulness_score"],
         "method": request.method,
         "required_headers": request.necessary_headers,
         "example_params": decoded_params,
