@@ -1,22 +1,26 @@
 import json
-import time
 import logging
 import os
-from openai import OpenAI
+
 from dotenv import load_dotenv
+from openai import OpenAI
 from pydantic import BaseModel, ValidationError
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 load_dotenv()
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
+
 
 class EndpointAnalysis(BaseModel):
     url: str
     explanation: str
     usefulness_score: int
+
 
 def analyze_endpoints_with_llm(preprocessed_data):
     try:
@@ -35,7 +39,9 @@ def analyze_endpoints_with_llm(preprocessed_data):
 
         logging.info("Formatted endpoints successfully.")
 
-        formatted_endpoints_json = json.dumps({"endpoints": formatted_endpoints}, indent=2)
+        formatted_endpoints_json = json.dumps(
+            {"endpoints": formatted_endpoints}, indent=2
+        )
 
         messages = [
             {
@@ -59,11 +65,11 @@ def analyze_endpoints_with_llm(preprocessed_data):
                     "If no endpoints are found valuable, include at least one as a potential candidate with a reason why it might be useful "
                     "and a corresponding score.\n\n"
                     "Format the response strictly as a JSON object with an 'endpoints' array containing URL(s), explanations, and usefulness scores."
-                )
+                ),
             },
             {
                 "role": "user",
-                "content": f"Here is a batch of API endpoints to analyze:\n\n{formatted_endpoints_json}"
+                "content": f"Here is a batch of API endpoints to analyze:\n\n{formatted_endpoints_json}",
             },
         ]
 
@@ -73,7 +79,7 @@ def analyze_endpoints_with_llm(preprocessed_data):
             messages=messages,
             max_tokens=1500,
             temperature=0.1,
-            response_format={"type": "json_object"}
+            response_format={"type": "json_object"},
         )
 
         logging.info("API request successful.")
@@ -82,7 +88,9 @@ def analyze_endpoints_with_llm(preprocessed_data):
             response_content = response.choices[0].message.content
             parsed_data = json.loads(response_content)
 
-            endpoints = [EndpointAnalysis(**ep) for ep in parsed_data.get("endpoints", [])]
+            endpoints = [
+                EndpointAnalysis(**ep) for ep in parsed_data.get("endpoints", [])
+            ]
             logging.info("Extracted %d valuable endpoints.", len(endpoints))
             return endpoints
 
@@ -94,11 +102,13 @@ def analyze_endpoints_with_llm(preprocessed_data):
         logging.error("Error during API processing: %s", str(e))
         return []
 
+
 def chunk_data(data, chunk_size=5):
     items = list(data.items())
     logging.info("Total endpoints before chunking: %d", len(items))
     for i in range(0, len(items), chunk_size):
-        yield dict(items[i:i + chunk_size])
+        yield dict(items[i : i + chunk_size])
+
 
 if __name__ == "__main__":
     logging.info("Starting endpoint analysis process")

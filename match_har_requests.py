@@ -1,6 +1,6 @@
 import json
-import re
 import sys
+
 
 def load_har_file(har_file):
     with open(har_file, "r", encoding="utf-8") as f:
@@ -11,14 +11,17 @@ def load_har_file(har_file):
         request = entry["request"]
         response = entry["response"]
 
-        requests.append({
-            "url": request["url"].split("?")[0],
-            "method": request["method"],
-            "headers": {h["name"]: h["value"] for h in request["headers"]},
-            "status_code": response["status"],
-        })
+        requests.append(
+            {
+                "url": request["url"].split("?")[0],
+                "method": request["method"],
+                "headers": {h["name"]: h["value"] for h in request["headers"]},
+                "status_code": response["status"],
+            }
+        )
 
     return requests
+
 
 def extract_valuable_endpoints(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -26,9 +29,10 @@ def extract_valuable_endpoints(file_path):
         valuable_endpoints = [endpoint["url"] for endpoint in endpoints_data]
         return valuable_endpoints
 
+
 def match_endpoints(har_requests, valuable_endpoints):
     matched_requests = []
-    
+
     for request in har_requests:
         for endpoint in valuable_endpoints:
             if request["url"].startswith(endpoint):
@@ -36,6 +40,7 @@ def match_endpoints(har_requests, valuable_endpoints):
                 break
 
     return matched_requests
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -47,7 +52,7 @@ if __name__ == "__main__":
 
     har_requests = load_har_file(har_file)
     print(f"Loaded {len(har_requests)} requests from HAR file")
-    
+
     valuable_endpoints = extract_valuable_endpoints(endpoints_file)
     print(f"Found {len(valuable_endpoints)} valuable endpoints to match")
 
