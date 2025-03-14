@@ -1,12 +1,18 @@
 import base64
 import json
 import time
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from urllib.parse import parse_qs, urlparse
 
 from playwright.sync_api import sync_playwright
 
-from api_engine.models import ApiDetectionResults, EndpointDocumentation, HeadersRequest
+from api_engine.models import (
+    ApiDetectionResults,
+    EndpointAnalysis,
+    EndpointDocumentation,
+    HeadersRequest,
+    MatchedRequest,
+)
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -16,27 +22,33 @@ class HeaderOptimizer:
     """Finds minimal necessary headers for API endpoints."""
 
     def optimize(
-        self, matched_requests_file: str, analyzed_endpoints_file: str, output_file: str
-    ) -> bool:
+        self,
+        matched_requests: List[MatchedRequest],
+        analyzed_endpoints: List[EndpointAnalysis],
+        output_file: str = None,
+    ) -> Tuple[bool, ApiDetectionResults]:
         """
         Find the minimal set of headers required to make successful API requests.
 
         Args:
-            matched_requests_file: Path to file containing matched HAR requests
-            analyzed_endpoints_file: Path to file containing endpoint analysis
-            output_file: Path to save output results
+            matched_requests: List of matched requests objects
+            analyzed_endpoints: List of endpoint analysis objects
+            output_file: Optional path to save output results
 
         Returns:
-            bool: True if optimization was successful
+            tuple: (success, api_detection_results)
         """
         try:
-            logger.info(f"Loading requests from {matched_requests_file}")
-            matched_requests = self._load_matched_requests(matched_requests_file)
+            logger.info(f"Finding minimal headers for {len(matched_requests)} requests")
 
-            logger.info(f"Loading endpoint descriptions from {analyzed_endpoints_file}")
-            endpoint_descriptions = self._load_endpoint_descriptions(
-                analyzed_endpoints_file
-            )
+            # Convert analyzed endpoints to a dictionary for easier lookup
+            endpoint_descriptions = {
+                endpoint.url: {
+                    "explanation": endpoint.explanation,
+                    "usefulness_score": endpoint.usefulness_score,
+                }
+                for endpoint in analyzed_endpoints
+            }
 
             logger.info(f"Finding minimal headers for {len(matched_requests)} requests")
             minimal_headers_data = self._find_minimal_headers(matched_requests)
@@ -46,15 +58,17 @@ class HeaderOptimizer:
                 minimal_headers_data, endpoint_descriptions
             )
 
-            logger.info(f"Saving results to {output_file}")
-            self._save_output_data(output_data, output_file)
+            # Optionally save results
+            if output_file:
+                logger.info(f"Saving results to {output_file}")
+                self._save_output_data(output_data, output_file)
 
-            logger.info(f"Minimal necessary headers saved to {output_file}")
-            return True
+            logger.info("Header optimization completed")
+            return True, output_data
 
         except Exception as e:
             logger.error(f"Header optimization failed: {str(e)}")
-            return False
+            return False, None
 
     def _load_matched_requests(self, file_path: str) -> List[Dict]:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -158,16 +172,16 @@ class HeaderOptimizer:
             return necessary_headers
 
     def _find_minimal_headers(
-        self, matched_requests: List[Dict]
+        self, matched_requests: List[MatchedRequest]
     ) -> List[HeadersRequest]:
         necessary_headers = []
 
         for request in matched_requests:
-            base_url = request["url"]
-            method = request["method"]
+            base_url = request.url
+            method = request.method
 
-            if ":path" in request["headers"]:
-                path = request["headers"][":path"]
+            if ":path" in request.headers:
+                path = request.headers[":path"]
                 if "?" in path:
                     query_string = path.split("?", 1)[1]
                     url = f"{base_url}?{query_string}"
@@ -177,9 +191,9 @@ class HeaderOptimizer:
                 url = base_url
 
             headers = {
-                k: v for k, v in request["headers"].items() if not k.startswith(":")
+                k: v for k, v in request.headers.items() if not k.startswith(":")
             }
-            status_code = request["status_code"]
+            status_code = request.status_code
 
             logger.info(f"Processing API: {url}")
             logger.debug(f"Method: {method}, Original Status: {status_code}")

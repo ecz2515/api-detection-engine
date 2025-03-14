@@ -1,5 +1,5 @@
 import json
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 from openai import OpenAI
 
@@ -33,43 +33,48 @@ class EndpointAnalyzer:
             )
             self.client = OpenAI()
 
-    def analyze(self, input_file: str, output_file: str) -> bool:
-        """Analyze endpoints from input file and save results to output file.
+    def analyze(
+        self, filtered_endpoints: List[FilteredEndpoint], output_file: str = None
+    ) -> Tuple[bool, List[EndpointAnalysis]]:
+        """Analyze endpoints and optionally save results to output file.
 
         Args:
-            input_file: Path to file with filtered endpoints
-            output_file: Path to save analysis results
+            filtered_endpoints: List of FilteredEndpoint objects
+            output_file: Optional path to save analysis results
 
         Returns:
-            bool: True if analysis was successful
+            tuple: (success, list_of_endpoint_analyses)
         """
         try:
-            logger.info(f"Starting endpoint analysis from {input_file}")
-
-            # Load preprocessed data
-            with open(input_file, "r") as infile:
-                preprocessed_data = json.load(infile)
-                logger.info(f"Loaded {len(preprocessed_data)} endpoints for analysis.")
+            logger.info(
+                f"Starting endpoint analysis of {len(filtered_endpoints)} endpoints"
+            )
 
             # Process data in chunks
             all_results = []
-            for chunk in self._chunk_data(preprocessed_data, self.chunk_size):
+            endpoints_dict = {
+                endpoint.url: endpoint.model_dump() for endpoint in filtered_endpoints
+            }
+
+            for chunk in self._chunk_data(endpoints_dict, self.chunk_size):
                 result = self._analyze_endpoints(chunk)
                 if isinstance(result, list):
                     all_results.extend(result)
 
-            # Save results
-            with open(output_file, "w") as outfile:
-                json.dump([ep.dict() for ep in all_results], outfile, indent=4)
+            # Optionally save results
+            if output_file:
+                with open(output_file, "w") as outfile:
+                    json.dump([ep.dict() for ep in all_results], outfile, indent=4)
+                logger.info(f"Analysis results saved to {output_file}")
 
             logger.info(
                 f"Analysis complete. Found {len(all_results)} valuable endpoints."
             )
-            return True
+            return True, all_results
 
         except Exception as e:
             logger.error(f"Error during endpoint analysis: {str(e)}")
-            return False
+            return False, []
 
     def _chunk_data(self, data: Dict, chunk_size: int = 5):
         """Split data into smaller chunks for processing.

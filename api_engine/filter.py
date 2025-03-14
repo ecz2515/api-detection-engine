@@ -1,6 +1,6 @@
 import json
 from collections import defaultdict
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 from api_engine.models import ApiRequest, FilteredEndpoint
 from utils.logger import get_logger
@@ -11,62 +11,60 @@ logger = get_logger(__name__)
 class HarFilter:
     """Filters and processes HAR files to extract API requests."""
 
-    def filter(self, har_file_path: str, request_type: str, output_path: str) -> bool:
+    def filter(
+        self, har_data, request_type: str, output_path: str = None
+    ) -> Tuple[bool, List[FilteredEndpoint]]:
         """
-        Filter HAR file for specific request types and preprocess the data.
+        Filter HAR data for specific request types and preprocess the data.
 
         Args:
-            har_file_path: Path to the HAR file
+            har_data: HAR data as a dictionary
             request_type: HTTP method to filter (GET, POST, etc.)
-            output_path: Output file path for filtered requests
+            output_path: Optional output file path for filtered requests
 
         Returns:
-            bool: True if successful, False otherwise
+            tuple: (success, filtered_endpoints)
         """
         try:
-            logger.info(
-                f"Filtering HAR file {har_file_path} for {request_type} requests"
-            )
+            logger.info(f"Filtering HAR data for {request_type} requests")
 
-            # Process the HAR file
-            grouped_requests = self._process_har_file(har_file_path, request_type)
+            # Process the HAR data
+            grouped_requests = self._process_har_data(har_data, request_type)
 
             # Convert to filtered endpoints for LLM analysis
             filtered_endpoints = self._convert_to_filtered_endpoints(grouped_requests)
 
-            # Save to output file
-            with open(output_path, "w") as outfile:
-                json.dump(
-                    [endpoint.model_dump() for endpoint in filtered_endpoints],
-                    outfile,
-                    indent=4,
+            # Optionally save to output file
+            if output_path:
+                with open(output_path, "w") as outfile:
+                    json.dump(
+                        [endpoint.model_dump() for endpoint in filtered_endpoints],
+                        outfile,
+                        indent=4,
+                    )
+                logger.info(
+                    f"Saved {len(filtered_endpoints)} filtered endpoints to {output_path}"
                 )
 
-            logger.info(
-                f"Filtered {len(filtered_endpoints)} endpoints to {output_path}"
-            )
-            return True
+            return True, filtered_endpoints
 
         except Exception as e:
-            logger.error(f"Error filtering HAR file: {str(e)}")
-            return False
+            logger.error(f"Error filtering HAR data: {str(e)}")
+            return False, []
 
-    def _process_har_file(
-        self, har_file_path: str, request_type: str
+    def _process_har_data(
+        self, har_data, request_type: str
     ) -> Dict[str, List[ApiRequest]]:
         """
-        Process HAR file to extract and group API requests.
+        Process HAR data to extract and group API requests.
 
         Args:
-            har_file_path: Path to the HAR file
+            har_data: HAR data as a dictionary
             request_type: HTTP method to filter
 
         Returns:
             Dict mapping endpoints to lists of ApiRequest objects
         """
-        with open(har_file_path, "r") as file:
-            har_data = json.load(file)
-
         entries = har_data["log"]["entries"]
         grouped_requests = defaultdict(list)
 

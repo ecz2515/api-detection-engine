@@ -1,5 +1,5 @@
 import json
-from typing import List
+from typing import Dict, List, Tuple
 
 from api_engine.models import EndpointAnalysis, MatchedRequest
 from utils.logger import get_logger
@@ -11,47 +11,52 @@ logger = get_logger(__name__)
 class HarMatcher:
     """Matches HAR file requests with valuable endpoints identified by analysis."""
 
-    def match(self, har_file: str, analyzed_file: str, output_file: str) -> bool:
+    def match(
+        self,
+        har_data: Dict,
+        analyzed_endpoints: List[EndpointAnalysis],
+        output_file: str = None,
+    ) -> Tuple[bool, List[MatchedRequest]]:
         """Match HAR requests with valuable endpoints.
 
         Args:
-            har_file: Path to the HAR file
-            analyzed_file: Path to the analyzed endpoints JSON file
-            output_file: Output path for matched requests
+            har_data: HAR data as dictionary
+            analyzed_endpoints: List of analyzed endpoints
+            output_file: Optional output path for matched requests
 
         Returns:
-            bool: True if matching was successful, False otherwise
+            tuple: (success, matched_requests)
         """
         try:
             # Load HAR requests
-            har_requests = self._load_har_file(har_file)
-            logger.info(f"Loaded {len(har_requests)} requests from HAR file")
+            har_requests = self._extract_har_requests(har_data)
+            logger.info(f"Extracted {len(har_requests)} requests from HAR data")
 
-            # Load valuable endpoints
-            valuable_endpoints = self._extract_valuable_endpoints(analyzed_file)
+            # Extract valuable endpoints
+            valuable_endpoints = [endpoint.url for endpoint in analyzed_endpoints]
             logger.info(f"Found {len(valuable_endpoints)} valuable endpoints to match")
 
             # Match endpoints with HAR requests
             matched_requests = self._match_endpoints(har_requests, valuable_endpoints)
             logger.info(f"Found {len(matched_requests)} matched requests")
 
-            # Save matched requests
-            with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(
-                    [request.model_dump() for request in matched_requests], f, indent=4
-                )
+            # Optionally save matched requests
+            if output_file:
+                with open(output_file, "w", encoding="utf-8") as f:
+                    json.dump(
+                        [request.model_dump() for request in matched_requests],
+                        f,
+                        indent=4,
+                    )
+                logger.info(f"Matched requests saved to {output_file}")
 
-            logger.info(f"Matched requests saved to {output_file}")
-            return True
+            return True, matched_requests
         except Exception as e:
             logger.error(f"Error matching HAR requests: {str(e)}")
-            return False
+            return False, []
 
-    def _load_har_file(self, har_file: str) -> List[dict]:
-        """Load and parse HAR file requests."""
-        with open(har_file, "r", encoding="utf-8") as f:
-            har_data = json.load(f)
-
+    def _extract_har_requests(self, har_data: Dict) -> List[dict]:
+        """Extract requests from HAR data."""
         requests = []
         for entry in har_data["log"]["entries"]:
             request = entry["request"]
