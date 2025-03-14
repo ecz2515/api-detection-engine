@@ -8,7 +8,7 @@ from playwright.sync_api import sync_playwright
 
 from api_engine.models import (
     ApiDetectionResults,
-    EndpointAnalysis,
+    EndpointAnalysisBatch,
     EndpointDocumentation,
     HeadersRequest,
     MatchedRequest,
@@ -24,7 +24,7 @@ class HeaderOptimizer:
     def optimize(
         self,
         matched_requests: List[MatchedRequest],
-        analyzed_endpoints: List[EndpointAnalysis],
+        analyzed_endpoints: EndpointAnalysisBatch,
         output_file: str = None,
     ) -> Tuple[bool, ApiDetectionResults]:
         """
@@ -47,7 +47,7 @@ class HeaderOptimizer:
                     "explanation": endpoint.explanation,
                     "usefulness_score": endpoint.usefulness_score,
                 }
-                for endpoint in analyzed_endpoints
+                for endpoint in analyzed_endpoints.endpoints
             }
 
             logger.info(f"Finding minimal headers for {len(matched_requests)} requests")

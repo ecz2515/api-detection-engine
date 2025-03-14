@@ -16,7 +16,7 @@ def create_app():
     app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "dev-key-for-testing")
     app.config["OUTPUT_DIR"] = os.environ.get("OUTPUT_DIR", "output")
     app.config["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "")
-    app.config["OPENAI_MODEL"] = os.environ.get("OPENAI_MODEL", "gpt-4")
+    app.config["OPENAI_MODEL"] = os.environ.get("OPENAI_MODEL", "gpt-4o")
 
     # Route definitions
     @app.route("/", methods=["GET", "POST"])
@@ -51,15 +51,13 @@ def create_app():
                     openai_model=app.config["OPENAI_MODEL"],
                 )
 
-                success, output_file = pipeline.run(
+                success, api_results, _ = pipeline.run(
                     url=url_input, request_type=request_type
                 )
 
-                if success and output_file:
-                    # Load the output from necessary_headers.json
-                    with open(output_file, "r") as f:
-                        data = json.load(f)
-                    endpoints = data.get("endpoints", [])
+                if success and api_results:
+                    # Use the API results directly instead of loading from file
+                    endpoints = api_results.endpoints
                 else:
                     flash("Pipeline execution failed. Check logs for details.")
 

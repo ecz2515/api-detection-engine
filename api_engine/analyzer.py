@@ -3,7 +3,7 @@ from typing import Dict, List, Tuple
 
 from openai import OpenAI
 
-from api_engine.models import EndpointAnalysis, FilteredEndpoint
+from api_engine.models import EndpointAnalysisBatch, FilteredEndpoint
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -35,7 +35,7 @@ class EndpointAnalyzer:
 
     def analyze(
         self, filtered_endpoints: List[FilteredEndpoint], output_file: str = None
-    ) -> Tuple[bool, List[EndpointAnalysis]]:
+    ) -> Tuple[bool, EndpointAnalysisBatch]:
         """Analyze endpoints and optionally save results to output file.
 
         Args:
@@ -58,19 +58,21 @@ class EndpointAnalyzer:
 
             for chunk in self._chunk_data(endpoints_dict, self.chunk_size):
                 result = self._analyze_endpoints(chunk)
-                if isinstance(result, list):
-                    all_results.extend(result)
+                if hasattr(result, "endpoints"):
+                    all_results.extend(result.endpoints)
+
+            combined_results = EndpointAnalysisBatch(endpoints=all_results)
 
             # Optionally save results
             if output_file:
                 with open(output_file, "w") as outfile:
-                    json.dump([ep.dict() for ep in all_results], outfile, indent=4)
+                    json.dump(combined_results.model_dump(), outfile, indent=4)
                 logger.info(f"Analysis results saved to {output_file}")
 
             logger.info(
                 f"Analysis complete. Found {len(all_results)} valuable endpoints."
             )
-            return True, all_results
+            return True, combined_results
 
         except Exception as e:
             logger.error(f"Error during endpoint analysis: {str(e)}")
@@ -91,7 +93,7 @@ class EndpointAnalyzer:
         for i in range(0, len(items), chunk_size):
             yield dict(items[i : i + chunk_size])
 
-    def _analyze_endpoints(self, preprocessed_data: Dict) -> List[EndpointAnalysis]:
+    def _analyze_endpoints(self, preprocessed_data: Dict) -> EndpointAnalysisBatch:
         """Process endpoints with the LLM.
 
         Args:
@@ -101,24 +103,8 @@ class EndpointAnalyzer:
             List[EndpointAnalysis]: List of analyzed endpoints
         """
         try:
-            logger.info(f"Processing {len(preprocessed_data)} endpoints...")
-
-            # Format endpoints for LLM consumption
-            formatted_endpoints = [
-                FilteredEndpoint(
-                    url=url,
-                    methods=list(set(req["method"] for req in requests)),
-                    params=requests[0].get("query_params", {}),
-                    sample_headers=requests[0].get("headers", {}),
-                    sample_post_data=requests[0].get("post_data", None),
-                ).model_dump()
-                for url, requests in preprocessed_data.items()
-            ]
-
-            logger.info("Formatted endpoints successfully.")
-
             formatted_endpoints_json = json.dumps(
-                {"endpoints": formatted_endpoints}, indent=2
+                {"endpoints": preprocessed_data}, indent=2
             )
 
             # Create messages for LLM
@@ -158,7 +144,7 @@ class EndpointAnalyzer:
                 messages=messages,
                 max_tokens=1500,
                 temperature=0.1,
-                response_format=EndpointAnalysis,
+                response_format=EndpointAnalysisBatch,
             )
 
             logger.info("API request successful.")

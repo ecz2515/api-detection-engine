@@ -28,7 +28,13 @@ class EndpointAnalysis(BaseModel):
 
     url: str
     explanation: str
-    usefulness_score: int = Field(..., ge=0, le=100)
+    usefulness_score: int
+
+
+class EndpointAnalysisBatch(BaseModel):
+    """Model representing a batch of analyzed endpoints."""
+
+    endpoints: List[EndpointAnalysis]
 
 
 class MatchedRequest(BaseModel):

@@ -1,7 +1,7 @@
 import json
 from typing import Dict, List, Tuple
 
-from api_engine.models import EndpointAnalysis, MatchedRequest
+from api_engine.models import EndpointAnalysis, EndpointAnalysisBatch, MatchedRequest
 from utils.logger import get_logger
 
 # Set up logger
@@ -14,7 +14,7 @@ class HarMatcher:
     def match(
         self,
         har_data: Dict,
-        analyzed_endpoints: List[EndpointAnalysis],
+        analyzed_endpoints: EndpointAnalysisBatch,
         output_file: str = None,
     ) -> Tuple[bool, List[MatchedRequest]]:
         """Match HAR requests with valuable endpoints.
@@ -33,7 +33,9 @@ class HarMatcher:
             logger.info(f"Extracted {len(har_requests)} requests from HAR data")
 
             # Extract valuable endpoints
-            valuable_endpoints = [endpoint.url for endpoint in analyzed_endpoints]
+            valuable_endpoints = [
+                endpoint.url for endpoint in analyzed_endpoints.endpoints
+            ]
             logger.info(f"Found {len(valuable_endpoints)} valuable endpoints to match")
 
             # Match endpoints with HAR requests
