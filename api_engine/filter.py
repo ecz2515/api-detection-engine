@@ -37,7 +37,7 @@ class HarFilter:
             # Save to output file
             with open(output_path, "w") as outfile:
                 json.dump(
-                    [endpoint.dict() for endpoint in filtered_endpoints],
+                    [endpoint.model_dump() for endpoint in filtered_endpoints],
                     outfile,
                     indent=4,
                 )

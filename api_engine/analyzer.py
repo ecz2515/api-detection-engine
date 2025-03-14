@@ -2,7 +2,6 @@ import json
 from typing import Dict, List
 
 from openai import OpenAI
-from pydantic import ValidationError
 
 from api_engine.models import EndpointAnalysis, FilteredEndpoint
 from utils.logger import get_logger
@@ -107,7 +106,7 @@ class EndpointAnalyzer:
                     params=requests[0].get("query_params", {}),
                     sample_headers=requests[0].get("headers", {}),
                     sample_post_data=requests[0].get("post_data", None),
-                ).dict()
+                ).model_dump()
                 for url, requests in preprocessed_data.items()
             ]
 
@@ -149,30 +148,17 @@ class EndpointAnalyzer:
             ]
 
             logger.info(f"Making API request with model {self.model}...")
-            response = self.client.chat.completions.create(
+            response = self.client.beta.chat.completions.parse(
                 model=self.model,
                 messages=messages,
                 max_tokens=1500,
                 temperature=0.1,
-                response_format={"type": "json_object"},
+                response_format=EndpointAnalysis,
             )
 
             logger.info("API request successful.")
 
-            # Parse and validate the response
-            try:
-                response_content = response.choices[0].message.content
-                parsed_data = json.loads(response_content)
-
-                endpoints = [
-                    EndpointAnalysis(**ep) for ep in parsed_data.get("endpoints", [])
-                ]
-                logger.info(f"Extracted {len(endpoints)} valuable endpoints.")
-                return endpoints
-
-            except (ValidationError, json.JSONDecodeError) as e:
-                logger.error(f"Error parsing API response: {str(e)}")
-                return []
+            return response.choices[0].message.parsed
 
         except Exception as e:
             logger.error(f"Error during API processing: {str(e)}")

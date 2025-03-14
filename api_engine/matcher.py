@@ -37,7 +37,9 @@ class HarMatcher:
 
             # Save matched requests
             with open(output_file, "w", encoding="utf-8") as f:
-                json.dump([request.dict() for request in matched_requests], f, indent=4)
+                json.dump(
+                    [request.model_dump() for request in matched_requests], f, indent=4
+                )
 
             logger.info(f"Matched requests saved to {output_file}")
             return True

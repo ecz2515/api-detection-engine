@@ -52,22 +52,3 @@ class HarCapture:
         except Exception as e:
             logger.error(f"Failed to capture HAR: {str(e)}")
             return False
-
-
-# Command-line usage when run directly
-if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) != 2:
-        print("Usage: python -m api_engine.capture <URL>")
-        sys.exit(1)
-
-    url = sys.argv[1]
-    capture = HarCapture()
-    success = capture.capture(url)
-
-    if success:
-        print("HAR capture completed successfully")
-    else:
-        print("HAR capture failed")
-        sys.exit(1)

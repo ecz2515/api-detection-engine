@@ -102,7 +102,7 @@ class HeaderOptimizer:
                 initial_status = response.status
                 try:
                     initial_body = response.text()
-                except:
+                except Exception:
                     initial_body = None
                 logger.info(
                     f"Initial response - Status: {initial_status}, Body length: {len(initial_body) if initial_body else 0}"
@@ -132,7 +132,7 @@ class HeaderOptimizer:
 
                     try:
                         current_body = response.text()
-                    except:
+                    except Exception:
                         current_body = None
 
                     if (
@@ -224,7 +224,7 @@ class HeaderOptimizer:
                     decoded_params[k] = json.loads(decoded)
                 else:
                     decoded_params[k] = v[0]
-            except:
+            except Exception:
                 decoded_params[k] = v[0]
 
         headers_str = " \\\n  ".join(
