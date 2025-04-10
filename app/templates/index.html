@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>API Detection Engine</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">API Detection Engine</h1>
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="alert alert-warning">
+      {% for message in messages %}
+      <p>{{ message }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <form method="POST" action="{{ url_for('index') }}" class="mb-5">
+      <div class="form-group">
+        <label for="url">URL:</label>
+        <input type="text" class="form-control" id="url" name="url"
+          placeholder="Enter URL (e.g., https://www.example.com)" required>
+      </div>
+      <div class="form-group">
+        <label for="request_type">Request Type:</label>
+        <select class="form-control" id="request_type" name="request_type" required>
+          <option value="GET" {% if request_type=='GET' %}selected{% endif %}>GET</option>
+          <option value="POST" {% if request_type=='POST' %}selected{% endif %}>POST</option>
+          <option value="PUT" {% if request_type=='PUT' %}selected{% endif %}>PUT</option>
+          <option value="DELETE" {% if request_type=='DELETE' %}selected{% endif %}>DELETE</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Run Pipeline</button>
+    </form>
+
+    {% if endpoints %}
+    <h2 class="mb-4">Processed Endpoints</h2>
+    {% for endpoint in endpoints %}
+    <div class="endpoint-card">
+      <div class="endpoint-header">
+        <div class="d-flex justify-content-between align-items-start">
+          <div class="url-container flex-grow-1">
+            <div class="url-text">{{ endpoint.url }}</div>
+            <button class="btn btn-sm btn-outline-secondary copy-btn"
+              onclick="copyToClipboard('{{ endpoint.url }}')">Copy</button>
+          </div>
+          <span class="badge badge-primary score-badge ml-2">Score: {{ endpoint.usefulness_score }}</span>
+        </div>
+        <div class="mt-2">
+          <span class="badge badge-secondary">{{ endpoint.method }}</span>
+        </div>
+      </div>
+      <div class="endpoint-body">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <div class="section-title">Description</div>
+            <p class="mb-0">{{ endpoint.description }}</p>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="section-title">Required Headers</div>
+            <ul class="headers-list">
+              {% for key, value in endpoint.required_headers.items() %}
+              <li><strong>{{ key }}:</strong> <span class="text-muted">{{ value }}</span></li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="section-title">Example Parameters</div>
+            {% if endpoint.example_params %}
+            <pre class="mb-0">{{ endpoint.example_params | tojson(indent=2) }}</pre>
+            {% else %}
+            <p class="text-muted mb-0">No parameters</p>
+            {% endif %}
+          </div>
+
+          <div class="col-12">
+            <div class="section-title">cURL Example</div>
+            <pre class="mb-0">{{ endpoint.curl_example }}</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>

@@ -44,3 +44,8 @@ logs/
 *.bak
 *.tmp
 *.temp
+
+test_files/
+*.json
+*.har
+__pycache__/

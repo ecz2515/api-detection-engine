@@ -1,0 +1,69 @@
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.endpoint-card {
+    margin-bottom: 2rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.endpoint-header {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.endpoint-body {
+    padding: 1.5rem;
+}
+
+.score-badge {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.headers-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.headers-list li {
+    margin-bottom: 0.5rem;
+}
+
+.url-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.url-text {
+    word-break: break-all;
+}
+
+.copy-btn {
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.copy-btn:hover {
+    opacity: 1;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #495057;
+}
