@@ -49,3 +49,5 @@ test_files/
 *.json
 *.har
 __pycache__/
+
+.elasticbeanstalk/
